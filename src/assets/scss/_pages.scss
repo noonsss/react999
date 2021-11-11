@@ -94,8 +94,8 @@
 
 //refer__cont
 #referCont {
-    background-color: #000;
-    color: #fff;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding-bottom: 300px;
 }
 .refer__cont {
@@ -106,17 +106,21 @@
         h3 {
             padding-bottom: 10px;
         }
+
+        ul {
+            border-top: 1px solid #fff;
+        }
         
         li {
             margin: 0;
             list-style: none;
-            border-top: 1px solid #000;
+            border-bottom: 1px solid #fff;
             position: relative;
             transition: all 0.3s;
             overflow: hidden;
 
             &:hover {
-                background: rgba(0, 0, 0, 0.081);
+                background: rgba(255, 255, 255, 0.12);
             }
 
             span {
@@ -135,10 +139,10 @@
                     width: 10%;
                 }
                 &:nth-child(3) {
-                    width: 75%;
+                    width: 70%;
                 }
                 &:nth-child(4) {
-                    width: 8%;
+                    width: 15%;
                 }
             }
         }
@@ -155,10 +159,10 @@
         margin-bottom: 10px;
     }
     p {
-        background: #000;
+        background: #Fff;
         padding: 22px 20px 20px 20px;
         margin-bottom: 10px;
-        color: #fff;
+        color: #000;
     }
     table {
         font-family: "SCoreDream";
@@ -174,6 +178,7 @@
             vertical-align: middle;
             border-bottom: 1px solid #dad8d1;
             border-right: 1px solid #dad8d1;
+            color: #fff;
         }
     }
     li {
@@ -253,4 +258,13 @@
 #youtubeCont {
     background-color: #000;
     color: #fff;
+}
+
+.main__cont.tact {
+    div:nth-child(2){
+        margin-left: 9vw;
+    }
+    div:nth-child(3){
+        margin-left: 18vw;
+    }
 }
