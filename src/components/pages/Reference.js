@@ -20,7 +20,7 @@ class Reference extends React.Component {
             data: {
                 data : {htmlRefer},
             },
-        } = await axios.get("https://webstoryboy.github.io/react5001/src/assets/json/refer.json");
+        } = await axios.get("https://noonsss.github.io/react999/src/assets/json/refer.json");
         this.setState({refers : htmlRefer, isLoading : false});
         // console.log(htmlRefer);
     }
@@ -30,7 +30,7 @@ class Reference extends React.Component {
             this.getRefer();
         }, 2000);
     }
-    
+
     render(){
         const {isLoading, refers} = this.state;
         return (
