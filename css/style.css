@@ -1448,6 +1448,83 @@ select {
   color: #fff;
 }
 
+.youtube__cont .youtube {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 200px;
+}
+
+.youtube__cont .youtube div {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 19%;
+          flex: 0 0 19%;
+}
+
+.youtube__cont .youtube div .title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-family: "SCoreDream";
+  margin: 10px 0 50px;
+}
+
+.youtube__cont .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.youtube__cont .search input {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 79%;
+          flex: 0 0 79%;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  font-family: "SCoreDream";
+  padding: 15px 10px;
+  outline: #fff;
+  color: #fff;
+}
+
+.youtube__cont .search input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.youtube__cont .search input:-ms-input-placeholder {
+  color: #fff;
+}
+
+.youtube__cont .search input::-ms-input-placeholder {
+  color: #fff;
+}
+
+.youtube__cont .search input::placeholder {
+  color: #fff;
+}
+
+.youtube__cont .search button {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 20%;
+          flex: 0 0 20%;
+  font-family: "SCoreDream";
+  background: #fff;
+  border: 1px solid #fff;
+  font-weight: bold;
+}
+
 .main__cont.tact div:nth-child(2) {
   margin-left: 9vw;
 }
