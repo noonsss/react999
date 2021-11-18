@@ -12,7 +12,7 @@ import ContInfo from '../layouts/ContInfo';
 //     )
 // }
 
-class ReferDetail extends React.Component {
+class ReferDetail2 extends React.Component {
     componentDidMount(){
         const {location,history} = this.props;
         if( location.state === undefined ){
@@ -22,7 +22,7 @@ class ReferDetail extends React.Component {
 
     render(){
         const { location } = this.props;
-        const { definition, use, element, tag, version, view, title, desc2} = this.props.location.state.refer;
+        const { definition, use, version, title, desc2, property, grammer, apply, basic} = this.props.location.state.refer;
         if( location.state ){
             console.log(location.state)
             return (
@@ -44,19 +44,19 @@ class ReferDetail extends React.Component {
                                         <tbody>
                                             <tr>
                                                 <th>요소</th>
-                                                <td>{element}</td>
+                                                <td>{basic}</td>
                                             </tr>
                                             <tr>
-                                                <th>닫는 태그</th>
-                                                <td>{tag}</td>
+                                                <th>적용</th>
+                                                <td>{apply}</td>
                                             </tr>
                                             <tr>
                                                 <th>버전</th>
                                                 <td>{version}</td>
                                             </tr>
                                             <tr>
-                                                <th>시각적 표현</th>
-                                                <td>{view}</td>
+                                                <th>기본문법</th>
+                                                <td>{grammer}</td>
                                             </tr>
                                             <tr>
                                                 <th>사용성</th>
@@ -74,6 +74,30 @@ class ReferDetail extends React.Component {
                                             ))
                                         }
                                     </ul>
+
+                                    <h4>속성(Property)</h4>
+                                    
+                                    <table>
+                                    <thead>
+                                        <tr>
+                                            <th>속성명</th>
+                                            <th>설명</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {
+                                            property.map((el)=>(
+                                                <tr key={el.sub.toString()}>
+                                                    <th>{el.sub}</th>
+                                                    <td>{el.desc}</td>
+                                                </tr>
+                                            ))
+                                        }
+                                    </tbody>
+                                        
+                                            
+                                    </table>
+
                                     <Link className="list-btn" to="./reference">목록보기</Link>
                                 </div>
                                 
@@ -91,4 +115,4 @@ class ReferDetail extends React.Component {
     }
 }
 
-export default ReferDetail;
+export default ReferDetail2;

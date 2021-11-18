@@ -12,17 +12,16 @@ import ContInfo from '../layouts/ContInfo';
 //     )
 // }
 
-class ReferDetail extends React.Component {
+class ReferDetail3 extends React.Component {
     componentDidMount(){
         const {location,history} = this.props;
         if( location.state === undefined ){
             history.push('./reference');
         }
     }
-
     render(){
         const { location } = this.props;
-        const { definition, use, element, tag, version, view, title, desc2} = this.props.location.state.refer;
+        const { title, desc2, returns, syntax, definition, link} = this.props.location.state.refer;
         if( location.state ){
             console.log(location.state)
             return (
@@ -43,52 +42,39 @@ class ReferDetail extends React.Component {
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <th>요소</th>
-                                                <td>{element}</td>
+                                                <th>반환값</th>
+                                                <td>{returns}</td>
                                             </tr>
                                             <tr>
-                                                <th>닫는 태그</th>
-                                                <td>{tag}</td>
+                                                <th>문법</th>
+                                                <td>{syntax}</td>
                                             </tr>
                                             <tr>
-                                                <th>버전</th>
-                                                <td>{version}</td>
-                                            </tr>
-                                            <tr>
-                                                <th>시각적 표현</th>
-                                                <td>{view}</td>
-                                            </tr>
-                                            <tr>
-                                                <th>사용성</th>
-                                                <td>{use}</td>
+                                                <th>링크</th>
+                                                <td><a href={link}>MDN</a></td>
                                             </tr>
                                         </tbody>
                                     </table>
-
                                     <h4>정의(Definition)</h4>
-                                    
                                     <ul>
                                         {
-                                            definition.map((def)=>(
-                                                <li key={def.toString()}>{def}</li>
+                                            definition.map((def,index)=>(
+                                                <li key={index}>{def}</li>
                                             ))
                                         }
                                     </ul>
                                     <Link className="list-btn" to="./reference">목록보기</Link>
                                 </div>
-                                
                             </div>
                         </section>
                         <ContInfo />
-                        </Contents>               
-                    <Footer />   
+                        </Contents>              
+                    <Footer />  
                 </div>
-
             )
         } else {
             return null;
         }
     }
 }
-
-export default ReferDetail;
+export default ReferDetail3;

@@ -105,7 +105,18 @@
         
         h3 {
             padding-bottom: 10px;
+            display: inline-block;
+            margin: 10px;
+            font-size: 20px;
+            
+            &:hover {
+                cursor: pointer;
+            }
         }
+        h3.active {
+            color: red;
+        }
+            
 
         ul {
             border-top: 1px solid #fff;

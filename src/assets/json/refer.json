@@ -1,449 +1,1178 @@
 {
-    "status": "ok",
-    "status_message": "Query was successful",
     "data": {
-        "type": "html",
-        "htmlRefer": [{
-                "id": 1,
-                "link": "https://webzz.tistory.com/229",
-                "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
-                "title": "<a>",
-                "desc1": "<a> 태그는 다른 페이지 이동을 설정합니다. 페이지 주소 뿐만 아니라, 메일 주소, 전화 번호 등도 연결할 수 있으며, 아이디(#) 값으로 페이지 내에서도 이동이 가능합니다.",
-                "desc2": "<a> 태그는 다른 페이지 이동을 설정합니다.",
-                "element": "인라인 구조(Inline Element)",
-                "tag": "닫는 태그 사용(<a> ~ </a>)",
-                "version": "HTML4",
-                "view": "밑줄과 파란색으로 표시",
-                "use": "★★★",
-                "definition": [
-                    "<a> 태그는 클릭하면 다른 페이지로 이동합니다. 현재 페이지에서 다른 페이지 URL로 연결하는 것을 하이퍼링크라고 합니다.",
-                    "<a> 태그는 페이지 주소 뿐만 아니라, 메일 주소, 전화 번호 등도 연결할 수 있습니다.",
-                    "<a> 태그는 아이디(#id)로 이동 할 수 있습니다.",
-                    "<a> 태그는 target 속성을 이용하면 새로운 브라우저 창에서 페이지 이동을 할 수 있습니다.",
-                    "<a> 태그는 방문한 링크는 밑줄과 보라색으로 표시되고, 활성화된 링크는 밑줄과 빨간색으로 표시됩니다.",
-                    "원칙적으로 <a> 태그는 블록구조를 포함 할 수 없지만, HTML5에서는 <a> 태그는 블록 요소를 포함할 수 있습니다.",
-                    "href='#'의 페이지 지정을 막기 위해 javascript:void(0)를 사용하는 것보다 <button> 태그를 사용하는 것이 바람직합니다."
-                ]
-            },
-            {
-                "id": 2,
-                "link": "https://webzz.tistory.com/230",
-                "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
-                "title": "<abbr>",
-                "desc1": "<abbr> 태그는 줄임말이나 머리글자를 표현하는데 사용합니다. abbr은 abbreviation의 약자로, '약자 또는 생략어'라는 의미를 가집니다. title 속성을 사용하여 전체 단어를 지정 할 수 있으며, <dfn> 태그와 같이 사용하여 정의할 수 있습니다.",
-                "desc2": "<abbr> 태그는 줄임말이나 머리글자를 표현하는데 사용합니다.",
-                "element": "인라인 구조(Inline Element)",
-                "tag": "닫는 태그 사용(<abbr> ~ </abbr>)",
-                "version": "HTML4",
-                "view": "점선(브라우저마다 틀림) 및 툴팁",
-                "use": "★☆☆",
-                "definition": [
-                    "<abbr> 태그는 abbreviation의 약자로, '약자 또는 생략어'라는 의미를 가집니다.",
-                    "<abbr> 태그를 사용할 경우 번역 시스템이나 검색 시스템에게 유용한 정보를 제공합니다.",
-                    "<abbr> 태그는 title 속성을 사용하여 전체 단어를 지정 할 수 있습니다.",
-                    "<abbr> 태그는 <dfn> 태그와 같이 사용하여 정의할 수 있습니다.",
-                    "<abbr> 태그에 아이디를 설정하여, <a> 링크로 참조할 수 있습니다.",
-                    "<abbr> 태그는 시각적으로는 점선이 표시되지만 브라우저마다 표시가 다를 수 있습니다.",
-                    "<abbr> 태그는 title 속성을 설정할 경우 마우스 오버시 툴팁 형식으로 약어가 표시됩니다."
-                ]
-            },
-            {
-                "id": 3,
-                "link": "https://webzz.tistory.com/231",
-                "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
-                "title": "<acronym>",
-                "desc1": "<acronym> 태그는 줄임말이나 머리글자를 표현하는데 사용합니다. 현재는 사용하지 않습니다.",
-                "desc2": "<acronym> 태그는 줄임말이나 머리글자를 표현하는데 사용합니다.",
-                "element": "인라인 구조(Inline Element)",
-                "tag": "닫는 태그 사용(<acronym> ~ </acronym>)",
-                "version": "HTML4(HTML5에서 지원되지 않습니다.)",
-                "view": "점선(브라우저마다 틀림) 및 툴팁",
-                "use": "☆☆☆",
-                "definition": [
-                    "<acronym> 태그는 줄임말이나 머리글자를 표현하는데 사용합니다.",
-                    "<acronym>는 HTML4 태그이고, HTML5에서 지원되지 않는 오래된 태그입니다. 일부 브라우저에서 작동 될 수 있지만 사용을 권장하지 않습니다"
-                ]
-            },
-            {
-                "id": 4,
-                "link": "https://webzz.tistory.com/232",
-                "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
-                "title": "<address>",
-                "desc1": "<address> 태그는 웹 페이지의 연락처 정보를 설정합니다. 사이트 주소, 전화번호, 이메일, 소설미디어, 위치 등의 정보와, 회사 정보, 회사 이름, 회사 주소 등과 관련된 정보를 표시합니다.",
-                "desc2": "<address> 태그는 웹 페이지의 연락처 정보를 설정합니다.",
-                "element": "블록 요소(Block Element)",
-                "tag": "닫는 태그 사용(<address> ~ </address>)",
-                "version": "HTML4",
-                "view": "기울임꼴",
-                "use": "★★★",
-                "definition": [
-                    "<address> 태그는 사이트 주소, 전화번호, 이메일, 소설미디어, 위치 등을 표시합니다.",
-                    "<address> 태그는 회사 정보, 회사 이름, 회사 주소 등과 관련된 정보를 표시합니다.",
-                    "<address> 태그는 <header>, <article>, <footer>, <aside>등 연락처 정보가 필요한 곳에 사용할 수 있습니다.",
-                    "<address> 태그는 연락처와 관련 없는 내용이라면 <p> 태그를 사용합니다.",
-                    "<address> 태그는 연락처 정보 보다 더 광범위한 정보를 포함 할 수 없습니다.(시간을 나타내는 time 태그등)",
-                    "<address> 태그는 일반적으로 <footer> 영역에서 많이 사용합니다."
-                ]
-            },
-            {
-                "id": 5,
-                "link": "https://webzz.tistory.com/233",
-                "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
-                "title": "<applet>",
-                "desc1": "<applet> 태그는 애플랫 요소를 설정합니다. 현재는 사용하지 않습니다.",
-                "desc2": "<applet> 태그는 애플랫 요소를 설정합니다.",
-                "element": "-",
-                "tag": "닫는 태그 사용(<applet> ~ </applet>)",
-                "version": "HTML4(HTML5에서 지원하지 않습니다.)",
-                "view": "-",
-                "use": "☆☆☆",
-                "definition": [
-                    "<applet> 태그는 자바 애플랫 요소를 설정합니다.",
-                    "<applet> 태그는 자바 애플랫 요소를 사용하기 위한 개발자 소스였으나, 현재는 사용하지 않으며, <object> 태그를 사용합니다."
-                ]
-            },
-            {
-                "id": 6,
-                "link": "https://webzz.tistory.com/234",
-                "image": "https://tistory1.daumcdn.net/tistory/2933724/skin/images/hover08.jpg",
-                "title": "<area>",
-                "desc1": "<area> 태그는 이미지 맵의 영역을 정의합니다.",
-                "desc2": "<area> 태그는 이미지 맵의 영역을 정의합니다.",
-                "element": "인라인 요소(Inline Element)",
-                "tag": "닫는 태그 사용(<area> ~ </area>)",
-                "version": "HTML4(HTML5에서 지원하지 않습니다.)",
-                "view": "-",
-                "use": "★☆☆",
-                "definition": [
-                  "<area> 태그는 이미지 위에 영역 링크를 정의 할 때 간편하게 사용할 수 있습니다.",
-                  "<area> 태그는 <map>, <img> 태그와 같이 사용합니다.",
-                  "<area> 태그 shape 속성을 통해 영역을 모양(rect, circle, poly)을 설정합니다.",
-                  "<area> 태그 cords 속성을 통해 영역을 위치를 설정합니다. cords의 위치 값은 프로그램을 통해 좌표 값을 얻는 방법이 쉽습니다.",
-                  "<map> 태그의 name 속성과 이미지의 usemap 속성이 일치해야 적용됩니다.",
-                  "이미지 위에 영역을 설정하고 링크를 설정하는 방법은 많이 사용하지 않습니다. 직접 링크를 걸고 사용하는 것을 추천합니다.",
-                  "이미지 맵은 위치가 고정적이기 때문에 반응형 사이트에서 적용 할 수 없습니다."
-                ]
-            },
-            {
-                "id": 7,
-                "link": "https://webzz.tistory.com/235",
-                "image": "/",
-                "title": "<article>",
-                "desc1": "<article> 태그는 사이트의 독립적인 컨텐츠 섹션을 설정합니다. 독립적인 컨텐츠에는 포럼, 신문기사, 잡지, 블러그 항목, 게시판 글 등이 있으며, 각각의 컨테츠에는 제목(<h1>~<h6>)이 표시되어야 합니다.",
-                "desc2": "<article> 태그는 사이트의 독립적인 컨텐츠 섹션을 설정합니다.",
-                "element": "블록 요소(Block Element)",
-                "tag": "닫는 태그 사용(<article> ~ </article>)",
-                "version": "HTML5",
-                "view": "-",
-                "use": "★★☆",
-                "definition": [
-                  "<article> 태그는 사이트의 독립적인 컨텐츠 섹션을 설정합니다.",
-                  "<article> 태그는 포럼, 신문기사, 잡지, 블러그 항목, 게시판 글 등 콘텐츠의 독립적인 항목을 나타냅니다.",
-                  "<article> 태그는 독립적인 컨텐츠의 내용이 명시적으로 나열되고, 각각의 컨테츠에는 제목(<h1>~<h6>)이 표시되어야 합니다.",
-                  "<section>은 하나의 주제를 나타낸다면, <article>은 주제를 묶는 독립적인 콘텐츠를 나타냅니다.",
-                  "<section> 요소 안에 <article> 요소를 쓸 수 있으며, <article> 요소 안에도 <section> 요소를 쓸 수 있습니다."
-                ]
-            },
-            {
-                "id": 8,
-                "link": "https://webzz.tistory.com/236",
-                "image": "/",
-                "title": "<aside>",
-                "desc1": "<aside> 태그는 주요 콘텐츠의 보조적 컨텐츠 섹션을 설정합니다. 웹 페이지의 메인 콘텐츠와 관련된 사이드의 정보, 광고 등 부분적인 정보를 나타낼 때 사용합니다.",
-                "desc2": "<aside> 태그는 주요 콘텐츠의 보조적 컨텐츠 섹션을 설정합니다.",
-                "element": "블록 요소(Block Element)",
-                "tag": "닫는 태그 사용(<aside> ~ </aside>)",
-                "version": "HTML5",
-                "view": "-",
-                "use": "★★☆",
-                "definition": [
-                  "<aside> 태그는 주요 콘텐츠의 보조적 컨텐츠 섹션을 설정합니다.",
-                  "<aside> 태그는 웹 페이지의 메인 콘텐츠와 관련된 사이드의 정보, 광고 등 부분적인 정보를 나타낼 때 사용합니다."
-                ]
-            },
-            {
-                "id": 9,
-                "link": "https://webzz.tistory.com/237",
-                "image": "https://tistory3.daumcdn.net/tistory/2933724/skin/images/pan.mp3",
-                "title": "<audio>",
-                "desc1": "<audio> 태그는 오디오 파일을 설정합니다.",
-                "desc2": "<audio> 태그는 오디오 파일을 설정합니다.",
-                "element": "인라인 요소(Inline Element)",
-                "tag": "닫는 태그 사용(<audio> ~ </audio>)",
-                "version": "HTML5",
-                "view": "-",
-                "use": "★☆☆",
-                "definition": [
-                  "<audio> 태그는 오디오 파일을 설정합니다.",
-                  "<audio> 태그는 오디오 파일을 재생할 때 src 속성 또는 <source> 태그를 사용합니다.",
-                  "<audio> 태그는 controls 속성이 지정되지 않으면, 시각적인 표시가 없으며, 이 경우 브라우저의 기본 컨트롤이 표시됩니다.",
-                  "기본 컨트롤러에는 테두리(border), 굴곡(border-radius), 간격(padding, margin) 등을 설정할 수 있습니다.",
-                  "오디오 플레이어 개별 구성 요소(버튼, 아이콘, 글꼴 등)는 스타일을 지정할 수 없으며, 컨트롤 디자인은 브라우저마다 다릅니다."
-                ]
-            },
-            {
-                "id": 10,
-                "link": "https://webzz.tistory.com/238",
-                "image": "https://tistory3.daumcdn.net/tistory/2933724/skin/images/pan.mp3",
-                "title": "<b>",
-                "desc1": "<b> 태그는 다른 텍스트와 구별 할 때 설정합니다. 텍스트는 굵게 표시되지만 중요성을 강조하지 않습니다.",
-                "desc2": "<b> 태그는 다른 텍스트와 구별 할 때 설정합니다.",
-                "element": "인라인 요소(Inline Element)",
-                "tag": "닫는 태그 사용(<b> ~ </b>)",
-                "version": "HTML4",
-                "view": "볼드체",
-                "use": "/",
-                "definition": [
-                  "<b> 태그는 텍스트의 중요성과 관련성을 전달하지 않고, 다른 텍스트와 구별 할 때 설정합니다.",
-                  "<b> 태그는 일반적으로 키워드, 제품의 리뷰, 기사 리드문 등에 사용합니다.",
-                  "<b> 태그는 제목 요소로 사용하지 않습니다. 제목 요소는 <h1>~<h6> 태그를 사용합니다.",
-                  "<b> 태그는 <em>, <strong>, <mark>에 해당 되지 않고, 특별한 정보 전달의 의미가 없을 때 고려해서 사용합니다.",
-                  "단순하게 글씨를 두껍게 하기 위함이라면 CSS의 font-weight의 bold를 권장합니다."
-                ]
-            },
-            {
-                "id": 11,
-                "link": "https://webzz.tistory.com/238",
-                "image": "/",
-                "title": "<base>",
-                "desc1": "<base> 태그는 모든 문서의 기본이 되는 URL을 설정합니다. <head> 태그 안에 설정 할 수 있으며, 문서에서 한 번만 설정 할 수 있습니다.",
-                "desc2": "<base> 태그는 모든 문서의 기본이 되는 URL을 설정합니다.",
-                "element": "인라인 요소(Inline Element)",
-                "tag": "Self-closing(<base />)",
-                "version": "HTML4(HTML5에서 지원하지 않습니다.)",
-                "view": "/",
-                "use": "/",
-                "definition": [
-                  "<base> 태그는 모든 문서의 기본이 되는 URL을 설정합니다.",
-                  "<base> 태그는 <head> 태그 안에서만 설정 할 수 있습니다.",
-                  "여러개의 <base> 태그가 설정된 경우, 첫 번째 설정만 유지되고 나머지는 무시됩니다.",
-                  "<base> 태그는 문서에서 한 번만 설정 할 수 있습니다."
-                ]
-            },
-            {
-                "id": 12,
-                "link": "https://webzz.tistory.com/239",
-                "image": "/",
-                "title": "<basefont>",
-                "desc1": "<basefont> 태그는 문서의 기본 폰트, 사이즈, 종류를 설정합니다. 지금은 CSS에서 이 기능을 구현하기 때문에 현재는 사용하지 않습니다.",
-                "desc2": "<basefont> 태그는 문서의 기본 폰트, 사이즈, 종류를 설정합니다.",
-                "element": "인라인 요소(Inline Element)",
-                "tag": "Self-closing(<basefont />)",
-                "version": "HTML4(HTML5에서 지원하지 않습니다.)",
-                "view": "/",
-                "use": "/",
-                "definition": [
-                  "<basefont> 태그는 문서의 기본 폰트, 사이즈, 종류를 설정합니다.",
-                  "<basefont> 태그는 <head> 섹션 안에 설정합니다.",
-                  "<basefont>는 HTML5에서 지원되지 않으며, 그 기능은 CSS가 대신 합니다.(font, font-family, font-size, font-size-adjust, font-style, font-variant, font-weight, @font-face)"
-                ]
-            },
-            {
-                "id": 13,
-                "link": "https://webzz.tistory.com/240",
-                "image": "/",
-                "title": "<bdi>",
-                "desc1": "<bdi> 태그는 텍스트의 출력 방향 영역을 설정합니다. 일반적인 글은 왼쪽에서 오른쪽으로 읽지만, 아랍어나 히브리어는 오른쪽에서 왼쪽으로 읽을 때 사용합니다.",
-                "desc2": "<bdi> 태그는 텍스트의 출력 방향 영역을 설정합니다.",
-                "element": "인라인 요소(Inline Element)",
-                "tag": "닫는 태그 사용(<bdi> ~ </bdi>)",
-                "version": "HTML5",
-                "view": "/",
-                "use": "/",
-                "definition": [
-                  "<bdi> 태그는 텍스트의 출력 방향 영역을 설정합니다.",
-                  "일반적인 글은 왼쪽에서 오른쪽으로 읽지만, 아랍어나 히브리어는 오른쪽에서 왼쪽으로 읽을 때 <bdi> 태그를 사용합니다.",
-                  "<bdi> 태그는 텍스트의 읽는 방향이 다른 언어를 위해 HTML5에서 새로 생긴 태그입니다.",
-                  "<bdi> 태그는 텍스트 표기 방향을 자동으로 인식하고 제어를 합니다.",
-                  "<bdi> 태그는 CSS를 통해 텍스트의 방향(unicode-bidi)을 설정할 수 있습니다."
-                ]
-            },
-            {
-                "id": 14,
-                "link": "https://webzz.tistory.com/241",
-                "image": "/",
-                "title": "<bdo>",
-                "desc1": "<bdo> 태그는 텍스트의 방향을 설정합니다. 텍스트의 읽는 방향이 다른 나른 언어를 위해 사용합니다.",
-                "desc2": "<bdo> 태그는 텍스트의 방향을 설정합니다.",
-                "element": "인라인 요소(Inline Element)",
-                "tag": "닫는 태그 사용(<bdo> ~ </bdo>)",
-                "version": "HTML5",
-                "view": "/",
-                "use": "/",
-                "definition": [
-                  "<bdo> 태그는 텍스트의 방향을 설정합니다.",
-                  "<bdo> 태그는 텍스트의 읽는 방향이 다른 나른 언어를 위해 HTML5에서 새로 생긴 태그입니다.",
-                  "<bdo> 태그는 CSS를 통해 텍스트의 방향(unicode-bidi)을 설정할 수 있습니다.",
-                  "<bdo> 태그는 dir 속성을 같이 사용하여 방향을 설정합니다."
-                ]
-            },
-            {
-                "id": 15,
-                "link": "https://webzz.tistory.com/243",
-                "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
-                "title": "<big>",
-                "desc1": "태그는 텍스트의 크기를 크게 설정합니다. CSS가 그 기능을 대신하기 때문에 현재는 사용하지 않는 태그입니다.",
-                "desc2": "태그는 텍스트의 크기를 크게 설정합니다.",
-                "element": "인라인 요소(Inline Element)",
-                "tag": "닫는 태그 사용(<big> ~ </big>)",
-                "version": "HTML4(HTML5에서 지원하지 않습니다.)",
-                "view": "-",
-                "use": "/",
-                "definition": [
-                    "<big> 태그는 글씨 크기를 크게 해주지만 CSS가 그 기능을 대신하기 때문에 HTML5에서는 지원하지 않습니다."
-                ]
-            },
-            {
-                "id": 16,
-                "link": "https://webzz.tistory.com/244",
-                "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
-                "title": "<blockquote>",
-                "desc1": "태그는 긴 문장의 인용문을 설정합니다. 인용된 정보 출처는 cite 속성을 통해 설정합니다.",
-                "desc2": "태그는 긴 문장의 인용문을 설정합니다.",
-                "element": "블록 요소(block Element)",
-                "tag": "닫는 태그 사용(<blockquote> ~ </blockquote>)",
-                "version": "HTML4",
-                "view": "여백이 생김",
-                "use": "★☆☆",
-                "definition": [
-                    "인용(quotation)을 표현하는 태그는 <blockquote> 태그와 <q> 태그가 있습니다.",
-                    "<blockquote> 태그는 전체 문장에 해당하는 긴 인용문에 사용합니다.",
-                    "<blockquote> 태그는 인용된 정보 출처는 cite 속성을 통해 설정합니다.",
-                    "<blockquote> 태그를 사용하면 자동으로 여백이 생깁니다. 여백이 목적이라면 CSS를 사용합니다.",
-                    "<blockquote> 태그는 블록 요소이며, <q> 태그는 인라인 요소입니다.",
-                    "<figure>, <figcaption> 태그를 같이 사용하여, 인용문을 더 정확하게 사용할 수 있습니다."
-                ]
-            },
-            {
-                "id": 17,
-                "link": "https://webzz.tistory.com/245",
-                "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
-                "title": "<blink>",
-                "desc1": "태그는 텍스트를 깜박이게 설정합니다. 현재는 사용하지 않으며 오래된 태그입니다. 이 기능은 CSS Animation이 대신 할 수 있습니다.",
-                "desc2": "태그는 텍스트를 깜박이게 설정합니다.",
-                "element": "인라인 요소(Inline Element)",
-                "tag": "닫는 태그 사용(<blink> ~ </blink>)",
-                "version": "지원하지 않습니다.",
-                "view": "글씨가 깜박임",
-                "use": "/",
-                "definition": [
-                    "<blink> 태그는 텍스트를 깜박이게 합니다.",
-                    "<blink> 태그는 현재 사용하지 않으며, 오래된 태그입니다.",
-                    "CSS Animation을 통해 깜박임 효과를 구현 할 수 있습니다."
-                ]
-            },
-            {
-                "id": 18,
-                "link": "https://webzz.tistory.com/246",
-                "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
-                "title": "<body>",
-                "desc1": "<body> 태그는 문서의 타이틀, 스크립트, 스타일, 메타 정보 등을 설정합니다.",
-                "desc2": "<body> 태그는 문서의 타이틀, 스크립트, 스타일, 메타 정보 등을 설정합니다.",
-                "element": "블록 요소(Blockk Element)",
-                "tag": "닫는 태그 사용(<body> ~ </body>)",
-                "version": "HTML4",
-                "view": "-",
-                "use": "★★★",
-                "definition": [
-                    "<body> 태그는 텍스트 줄바꿈이 필요할 때 사용합니다.",
-                    "여백이 필요할 때 <body> 태그의 사용은 적절치 않으며, CSS 속성 중에 margin, padding 또는 line-height를 사용합니다.",
-                    "HTML4에서는 <body /> 태그 작성시 슬러시('/')가 필요하지만, HTML5에서는 의무적인 사항은 아니기 때문에 생략도 가능합니다."
-                ]
-            },
-            {
-                "id": 19,
-                "link": "https://webzz.tistory.com/247",
-                "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
-                "title": "<br>",
-                "desc1": "<br> 태그는 텍스트 줄바꿈이 필요할 때 설정합니다.",
-                "desc2": "<br> 태그는 텍스트 줄바꿈이 필요할 때 설정합니다.",
-                "element": "인라인 요소(Inline Element)",
-                "tag": "Self-closing(<br />)",
-                "version": "HTML4",
-                "view": "-",
-                "use": "★★★",
-                "definition": [
-                    "<br> 태그는 텍스트 줄바꿈이 필요할 때 사용합니다.",
-                    "여백이 필요할 때 <br> 태그의 사용은 적절치 않으며, CSS 속성 중에 margin, padding 또는 line-height를 사용합니다.",
-                    "HTML4에서는 <br /> 태그 작성시 슬러시('/')가 필요하지만, HTML5에서는 의무적인 사항은 아니기 때문에 생략도 가능합니다."
-                ]
-            },
-            {
-                "id": 20,
-                "link": "https://webzz.tistory.com/248",
-                "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
-                "title": "<button>",
-                "desc1": "<button> 태그는 클릭 할 수 있는 버튼을 설정합니다.",
-                "desc2": "<button> 태그는 클릭 할 수 있는 버튼을 설정합니다.",
-                "element": "인라인 요소(Inline Element)",
-                "tag": "닫는 태그 사용(<button> ~ </button>)",
-                "version": "HTML4",
-                "view": "기본적인 버튼 디자인",
-                "use": "★★★",
-                "definition": [
-                    "<button> 태그는 클릭 할 수 있는 버튼을 설정합니다.",
-                    "<button> 태그는 데이터를 전송하기 위한 버튼이라면 type 속성을 설정해야합니다.",
-                    "<button> 태그는 CSS를 통해 버튼 디자인 작업을 할 수 있습니다."
-                ]
-            },
-            {
-                "id": 21,
-                "link": "https://webzz.tistory.com/249",
-                "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
-                "title": "<canvas>",
-                "desc1": "<canvas> 태그는 비트맵 방식의 그림을 설정합니다. canvas API와 WebGL API를 통해 그래픽과 애니메이션을 만듭니다.",
-                "desc2": "<canvas> 태그는 비트맵 방식의 그림을 설정합니다.",
-                "element": "블록 요소(Block Element)",
-                "tag": "닫는 태그 사용(<canvas> ~ </canvas>)",
-                "version": "HTML4",
-                "view": "-",
-                "use": "★★★",
-                "definition": [
-                    "<canvas> 태그는 비트맵 방식의 그림을 설정합니다.",
-                    "<canvas> 태그는 canvas API와 WebGL API를 통해 그래픽과 애니메이션을 만듭니다.",
-                    "<canvas> 태그는 <img> 태그와 달리 닫는 태그를 사용해야 합니다.",
-                    "<canvas> 태그는 자바스크립트를 사용하여 설정합니다.",
-                    "<canvas> 태그의 크기는 CSS를 통해 설정할 수 있지만, 렌더링을 통해 이미지 크기가 변경되어 왜곡 될 수 있습니다.",
-                    "<canvas> 태그의 최대 크기는 브라우저마다 다를 수 있습니다."
-                ]
-            },
-            {
-                "id": 22,
-                "link": "https://webzz.tistory.com/250",
-                "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
-                "title": "<caption>",
-                "desc1": "<caption> 태그는 표의 제목을 설정합니다.",
-                "desc2": "<caption> 태그는 표의 제목을 설정합니다.",
-                "element": "인라인 요소(Inline Element)",
-                "tag": "닫는 태그 사용(<caption> ~ </caption>)",
-                "version": "HTML4",
-                "view": "가운데 정렬",
-                "use": "★★☆",
-                "definition": [
-                    "<caption> 태그는 표의 제목을 설정합니다.",
-                    "<caption> 태그는 기본적으로 가운데 정렬로 표시됩니다.",
-                    "align 속성은 HTML5에서 지원되지 않습니다."
-                ]
-            },
-            {
-                "id": 23,
-                "link": "https://webzz.tistory.com/251",
-                "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
-                "title": "<center>",
-                "desc1": "<center> 태그는 텍스트를 가운데 정렬합니다. CSS 속성이 기능을 대신하고 있기 때문에 현재는 사용하지 않습니다.",
-                "desc2": "<center> 태그는 텍스트를 가운데 정렬합니다.",
-                "element": "블록 요소(Block Element)",
-                "tag": "닫는 태그 사용(<center> ~ </center>)",
-                "version": "HTML4(HTML5에서 지원하지 않습니다.)",
-                "view": "가운데 정렬",
-                "use": "/",
-                "definition": [
-                    "<center> 태그는 가운데 정렬을 할 때 사용합니다.",
-                    "인라인 구조에서 가운데 정렬은 CSS의 text-align : center를 사용합니다.",
-                    "블록 구조에서 가운데 정렬은 CSS의 margin: 0 auto를 사용합니다.",
-                    "display: flex와 dispaly: grid를 통해서도 가운데 정렬이 가능합니다."
-                ]
-            }
-        ]
-    }
+      "htmlRefer": [
+        {
+          "id": 1,
+          "link": "https://webzz.tistory.com/229",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<a>",
+          "desc1": "<a> 태그는 다른 페이지 이동을 설정합니다. 페이지 주소 뿐만 아니라, 메일 주소, 전화 번호 등도 연결할 수 있으며, 아이디(#) 값으로 페이지 내에서도 이동이 가능합니다.",
+          "desc2": "<a> 태그는 다른 페이지 이동을 설정합니다.",
+          "element": "인라인 구조(Inline Element)",
+          "tag": "닫는 태그 사용(<a> ~ </a>)",
+          "version": "HTML4",
+          "view": "밑줄과 파란색으로 표시",
+          "use": "★★★",
+          "definition": [
+            "<a> 태그는 클릭하면 다른 페이지로 이동합니다. 현재 페이지에서 다른 페이지 URL로 연결하는 것을 하이퍼링크라고 합니다.",
+            "<a> 태그는 페이지 주소 뿐만 아니라, 메일 주소, 전화 번호 등도 연결할 수 있습니다.",
+            "<a> 태그는 아이디(#id)로 이동 할 수 있습니다.",
+            "<a> 태그는 target 속성을 이용하면 새로운 브라우저 창에서 페이지 이동을 할 수 있습니다.",
+            "<a> 태그는 방문한 링크는 밑줄과 보라색으로 표시되고, 활성화된 링크는 밑줄과 빨간색으로 표시됩니다.",
+            "원칙적으로 <a> 태그는 블록구조를 포함 할 수 없지만, HTML5에서는 <a> 태그는 블록 요소를 포함할 수 있습니다.",
+            "href='#'의 페이지 지정을 막기 위해 javascript:void(0)를 사용하는 것보다 <button> 태그를 사용하는 것이 바람직합니다."
+          ]
+        },
+        {
+          "id": 2,
+          "link": "https://webzz.tistory.com/230",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<abbr>",
+          "desc1": "<abbr> 태그는 줄임말이나 머리글자를 표현하는데 사용합니다. abbr은 abbreviation의 약자로, '약자 또는 생략어'라는 의미를 가집니다. title 속성을 사용하여 전체 단어를 지정 할 수 있으며, <dfn> 태그와 같이 사용하여 정의할 수 있습니다.",
+          "desc2": "<abbr> 태그는 줄임말이나 머리글자를 표현하는데 사용합니다.",
+          "element": "인라인 구조(Inline Element)",
+          "tag": "닫는 태그 사용(<abbr> ~ </abbr>)",
+          "version": "HTML4",
+          "view": "점선(브라우저마다 틀림) 및 툴팁",
+          "use": "★☆☆",
+          "definition": [
+            "<abbr> 태그는 abbreviation의 약자로, '약자 또는 생략어'라는 의미를 가집니다.",
+            "<abbr> 태그를 사용할 경우 번역 시스템이나 검색 시스템에게 유용한 정보를 제공합니다.",
+            "<abbr> 태그는 title 속성을 사용하여 전체 단어를 지정 할 수 있습니다.",
+            "<abbr> 태그는 <dfn> 태그와 같이 사용하여 정의할 수 있습니다.",
+            "<abbr> 태그에 아이디를 설정하여, <a> 링크로 참조할 수 있습니다.",
+            "<abbr> 태그는 시각적으로는 점선이 표시되지만 브라우저마다 표시가 다를 수 있습니다.",
+            "<abbr> 태그는 title 속성을 설정할 경우 마우스 오버시 툴팁 형식으로 약어가 표시됩니다."
+          ]
+        },
+        {
+          "id": 3,
+          "link": "https://webzz.tistory.com/231",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<acronym>",
+          "desc1": "<acronym> 태그는 줄임말이나 머리글자를 표현하는데 사용합니다. 현재는 사용하지 않습니다.",
+          "desc2": "<acronym> 태그는 줄임말이나 머리글자를 표현하는데 사용합니다.",
+          "element": "인라인 구조(Inline Element)",
+          "tag": "닫는 태그 사용(<acronym> ~ </acronym>)",
+          "version": "HTML4(HTML5에서 지원되지 않습니다.)",
+          "view": "점선(브라우저마다 틀림) 및 툴팁",
+          "use": "☆☆☆",
+          "definition": [
+            "<acronym> 태그는 줄임말이나 머리글자를 표현하는데 사용합니다.",
+            "<acronym>는 HTML4 태그이고, HTML5에서 지원되지 않는 오래된 태그입니다. 일부 브라우저에서 작동 될 수 있지만 사용을 권장하지 않습니다"
+          ]
+        },
+        {
+          "id": 4,
+          "link": "https://webzz.tistory.com/232",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<address>",
+          "desc1": "<address> 태그는 웹 페이지의 연락처 정보를 설정합니다. 사이트 주소, 전화번호, 이메일, 소설미디어, 위치 등의 정보와, 회사 정보, 회사 이름, 회사 주소 등과 관련된 정보를 표시합니다.",
+          "desc2": "<address> 태그는 웹 페이지의 연락처 정보를 설정합니다.",
+          "element": "블록 요소(Block Element)",
+          "tag": "닫는 태그 사용(<address> ~ </address>)",
+          "version": "HTML4",
+          "view": "기울임꼴",
+          "use": "★★★",
+          "definition": [
+            "<address> 태그는 사이트 주소, 전화번호, 이메일, 소설미디어, 위치 등을 표시합니다.",
+            "<address> 태그는 회사 정보, 회사 이름, 회사 주소 등과 관련된 정보를 표시합니다.",
+            "<address> 태그는 <header>, <article>, <footer>, <aside>등 연락처 정보가 필요한 곳에 사용할 수 있습니다.",
+            "<address> 태그는 연락처와 관련 없는 내용이라면 <p> 태그를 사용합니다.",
+            "<address> 태그는 연락처 정보 보다 더 광범위한 정보를 포함 할 수 없습니다.(시간을 나타내는 time 태그등)",
+            "<address> 태그는 일반적으로 <footer> 영역에서 많이 사용합니다."
+          ]
+        },
+        {
+          "id": 5,
+          "link": "https://webzz.tistory.com/233",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<applet>",
+          "desc1": "<applet> 태그는 애플랫 요소를 설정합니다. 현재는 사용하지 않습니다.",
+          "desc2": "<applet> 태그는 애플랫 요소를 설정합니다.",
+          "element": "-",
+          "tag": "닫는 태그 사용(<applet> ~ </applet>)",
+          "version": "HTML4(HTML5에서 지원하지 않습니다.)",
+          "view": "-",
+          "use": "☆☆☆",
+          "definition": [
+            "<applet> 태그는 자바 애플랫 요소를 설정합니다.",
+            "<applet> 태그는 자바 애플랫 요소를 사용하기 위한 개발자 소스였으나, 현재는 사용하지 않으며, <object> 태그를 사용합니다."
+          ]
+        },
+        {
+            "id": 6,
+            "title": "<base>",
+            "desc2": "<base> 태그는 모든 문서의 기본이 되는 URL을 설정합니다.",
+            "element": "인라인 요소(Inline Element)",
+            "tag": "닫는 태그 사용(Self-closing(<base />))",
+            "version": "HTML4",
+            "view": "-",
+            "use": "★☆☆",
+            "definition" : [
+                "<base> 태그는 모든 문서의 기본이 되는 URL을 설정합니다.",
+                "<base> 태그는 <head> 태그 안에서만 설정 할 수 있습니다.",
+                "여러개의 <base> 태그가 설정된 경우, 첫 번째 설정만 유지되고 나머지는 무시됩니다.",
+                "<base> 태그는 문서에서 한 번만 설정 할 수 있습니다.",
+                "<base> 태그는 모든 문서의 기본이 되는 URL을 설정합니다."
+            ]
+        },
+        {
+            "id": 7,
+            "title": "<basefont>",
+            "desc2": "<basefont> 태그는 문서의 기본 폰트, 사이즈, 종류를 설정합니다. 지금은 CSS에서 이 기능을 구현하기 때문에 현재는 사용하지 않습니다.",
+            "element": "인라인 요소(Inline Element)",
+            "tag": "닫는 태그 사용(Self-closing(<basefont />)",
+            "version": "HTML4",
+            "view": "-",
+            "use": "☆☆☆",
+            "definition" : [
+                "<basefont> 태그는 문서의 기본 폰트, 사이즈, 종류를 설정합니다.",
+                "<basefont> 태그는 <head> 섹션 안에 설정합니다.",
+                "<basefont>는 HTML5에서 지원되지 않으며, 그 기능은 CSS가 대신 합니다.(font, font-family, font-size, font-size-adjust, font-style, font-variant, font-weight, @font-face)"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "<br>",
+            "desc2": "<br> 태그는 텍스트 줄바꿈이 필요할 때 설정합니다.",
+            "element": "인라인 요소(Inline Element)",
+            "tag": "닫는 태그 사용(Self-closing(<br />)",
+            "version": "HTML4",
+            "view": "-",
+            "use": "★★★",
+            "definition" : [
+                "<br> 태그는 텍스트 줄바꿈이 필요할 때 사용합니다.",
+                "<a> 태그는 target 속성을 이용하면 새로운 브라우저 창에서 페이지 이동을 할 수 있습니다.,여백이 필요할 때 <br> 태그의 사용은 적절치 않으며, CSS 속성 중에 margin, padding 또는 line-height를 사용합니다.",
+                "HTML4에서는 <br /> 태그 작성시 슬러시('/')가 필요하지만, HTML5에서는 의무적인 사항은 아니기 때문에 생략도 가능합니다."
+            ]
+        },
+        {
+            "id": 9,
+            "title": "<button>",
+            "desc2": "<button> 태그는 클릭 할 수 있는 버튼을 설정합니다.",
+            "element": "인라인 요소(Inline Element)",
+            "tag": "닫는 태그 사용(<button> ~ </buttonx>)",
+            "version": "HTML4",
+            "view": "기본적인 버튼 디자인",
+            "use": "★★★",
+            "definition" : [
+                "<button> 태그는 클릭 할 수 있는 버튼을 설정합니다.",
+                "<button> 태그는 데이터를 전송하기 위한 버튼이라면 type 속성을 설정해야합니다.",
+                "<button> 태그는 CSS를 통해 버튼 디자인 작업을 할 수 있습니다."
+            ]
+        },
+        {
+            "id": 10,
+            "title": "<canvas>",
+            "desc2": "<canvas> 태그는 비트맵 방식의 그림을 설정합니다. canvas API와 WebGL API를 통해 그래픽과 애니메이션을 만듭니다.",
+            "element": "블록 요소(Block Element)",
+            "tag": "닫는 태그 사용(<canvas> ~ </canvas>)",
+            "version": "HTML4",
+            "view": "-",
+            "use": "★★★",
+            "definition" : [
+                "<canvas> 태그는 비트맵 방식의 그림을 설정합니다.",
+                "<canvas> 태그는 canvas API와 WebGL API를 통해 그래픽과 애니메이션을 만듭니다.",
+                "<canvas> 태그는 <img> 태그와 달리 닫는 태그를 사용해야 합니다.",
+                "<canvas> 태그는 자바스크립트를 사용하여 설정합니다.",
+                "<canvas> 태그의 크기는 CSS를 통해 설정할 수 있지만, 렌더링을 통해 이미지 크기가 변경되어 왜곡 될 수 있습니다.",
+                "<canvas> 태그의 최대 크기는 브라우저마다 다를 수 있습니다."
+            ]
+        },
+        {
+            "id": 11,
+            "link": "https://webzz.tistory.com/283",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "<i>",
+            "desc1": "<i> 태그는 특별한 이유로 평범한 글자와 구분하기 위해 설정합니다.",
+            "desc2": "<i> 태그는 특별한 이유로 평범한 글자와 구분하기 위해 설정합니다.",
+            "element": "인라인 요소(Inline Element)",
+            "tag": "닫는 태그 사용(<i> ~ </i>)",
+            "version": "HTML4",
+            "view": "이탤릭체",
+            "use": "★☆☆",
+            "definition": [
+              "<i> 태그는 특별한 이유로 평범한 글자와 구분하기 위해 설정합니다.",
+              "<i> 태그는 음성, 분위기, 기술적인 구문, 생각, 선박이름 등과 같이 다른 텍스트와 구분하기 위해 사용합니다.",
+              "<i> 태그는 <em>, <strong>, <mark>, <cite>, <dfn> 태그에 해당되는 적합한 의미가 없을 때 사용합니다."
+            ]
+          },
+          {
+            "id": 12,
+            "link": "https://webzz.tistory.com/284",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "<iframe>",
+            "desc1": "<iframe> 태그는 웹 문서에 다른 문서를 포함하는데 사용합니다.",
+            "desc2": "<iframe> 태그는 웹 문서에 다른 문서를 포함하는데 사용합니다.",
+            "element": "블록 요소(Block Element)",
+            "tag": "닫는 태그 사용(<iframe> ~ </iframe>)",
+            "version": "HTML4",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "<iframe> 태그(HTML Inline Frame element)는 웹 문서에 다른 웹 문서를 포함하는데 사용합니다.",
+              "웹 문서에서 <iframe> 태그는 여러 개를 사용 할 수 있습니다.",
+              "<iframe> 태그를 여러 개 사용 할 경우, 페이지 리소스가 증가하여 느려질 수 있으므로 웹 페이지 성능을 고려하여 적절하게 사용하여야 합니다."
+            ]
+          },
+          {
+            "id": 13,
+            "link": "https://webzz.tistory.com/285",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "<img>",
+            "desc1": "<img> 태그는 웹 문서에 이미지를 정의합니다.",
+            "desc2": "<img> 태그는 웹 문서에 이미지를 정의합니다.",
+            "element": "인라인 요소(Inline Element)",
+            "tag": "Self-Closing(<img />)",
+            "version": "HTML4",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "<img> 태그는 src 속성과 alt 속성은 필수적으로 설정합니다.",
+              "<img> 태그에 title 속성을 설정하면 이미지에 대한 추가적인 정보를 제공하고, 브라우저에서는 툴팁으로 표시됩니다.",
+              "<img> 태그는 인라인 구조이며, border, border-radius, padding, margin, width, height 속성 값을 설정할 수 있습니다."
+            ]
+          },
+          {
+            "id": 14,
+            "link": "https://webzz.tistory.com/286",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "<input>",
+            "desc1": "<input> 태그는 데이터를 입력할 수 있는 폼 컨트롤을 정의합니다.",
+            "desc2": "<input> 태그는 데이터를 입력할 수 있는 폼 컨트롤을 정의합니다.",
+            "element": "인라인 요소(Inline Element)",
+            "tag": "Self-Closing(<input />)",
+            "version": "HTML4",
+            "view": "-",
+            "use": "-",
+            "definition": [
+              "<input> 태그는 사용자가 입력하는 컨트롤은 <form> 태그 안에 설정합니다.",
+              "<input> 태그는 반드시 속성 값을 설정합니다."
+            ]
+          },
+          {
+            "id": 15,
+            "link": "https://webzz.tistory.com/287",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "<ins>",
+            "desc1": "<ins> 태그는 문서에 삽입된 텍스트를 설정합니다",
+            "desc2": "<ins> 태그는 문서에 삽입된 텍스트를 설정합니다",
+            "element": "인라인 요소(Inline Element)",
+            "tag": "닫는 태그 사용(<ins> ~ </ins>)",
+            "version": "HTML4",
+            "view": "-",
+            "use": "★☆☆",
+            "definition": [
+              "<ins> 태그는 문서에서 문서에서 수정이나 업데이트를 표현하기 위해서 사용합니다.",
+              "<ins> 태그는 문서에서 시각적으로 밑줄이 표시됩니다."
+            ]
+          },
+          {
+            "id": 16,
+            "link": "https://webzz.tistory.com/288",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+            "title": "<kbd>",
+            "desc1": "<kbd> 태그는 키보드 입력요소를 나타내는 텍스트를 정의합니다.",
+            "desc2": "<kbd> 태그는 키보드 입력요소를 나타내는 텍스트를 정의합니다.",
+            "element": "인라인 요소(Inline Element)",
+            "tag": "닫는 태그 사용(<kbd> ~ </kbd>)",
+            "version": "HTML4",
+            "view": "monotype 폰트로 표현",
+            "use": "-",
+            "definition": [
+              "<kbd> 태그(HTML Keyboard Input element)는 키보드 입력요소를 나타내는 텍스트를 정의합니다.",
+              "<kbd> 태그 키보드, 음성입력, 입력장치에 의한 텍스트를 표현할 때 사용합니다.",
+              "<kbd> 태그는 시각적으로 브라우저 기본 폰트 monospace으로 표현됩니다."
+            ]
+          },
+          {
+          "id": 17,
+          "link": "https://webzz.tistory.com/229",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<a>",
+          "desc1": "<a> 태그는 다른 페이지 이동을 설정합니다. 페이지 주소 뿐만 아니라, 메일 주소, 전화 번호 등도 연결할 수 있으며, 아이디(#) 값으로 페이지 내에서도 이동이 가능합니다.",
+          "desc2": "<a> 태그는 다른 페이지 이동을 설정합니다.",
+          "element": "인라인 구조(Inline Element)",
+          "tag": "닫는 태그 사용(<a> ~ </a>)",
+          "version": "HTML4",
+          "view": "밑줄과 파란색으로 표시",
+          "use": "★★★",
+          "definition": [
+            "<a> 태그는 클릭하면 다른 페이지로 이동합니다. 현재 페이지에서 다른 페이지 URL로 연결하는 것을 하이퍼링크라고 합니다.",
+            "<a> 태그는 페이지 주소 뿐만 아니라, 메일 주소, 전화 번호 등도 연결할 수 있습니다.",
+            "<a> 태그는 아이디(#id)로 이동 할 수 있습니다.",
+            "<a> 태그는 target 속성을 이용하면 새로운 브라우저 창에서 페이지 이동을 할 수 있습니다.",
+            "<a> 태그는 방문한 링크는 밑줄과 보라색으로 표시되고, 활성화된 링크는 밑줄과 빨간색으로 표시됩니다.",
+            "원칙적으로 <a> 태그는 블록구조를 포함 할 수 없지만, HTML5에서는 <a> 태그는 블록 요소를 포함할 수 있습니다.",
+            "href='#'의 페이지 지정을 막기 위해 javascript:void(0)를 사용하는 것보다 <button> 태그를 사용하는 것이 바람직합니다."
+          ]
+        },
+        {
+          "id": 18,
+          "link": "https://webzz.tistory.com/230",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<abbr>",
+          "desc1": "<abbr> 태그는 줄임말이나 머리글자를 표현하는데 사용합니다. abbr은 abbreviation의 약자로, '약자 또는 생략어'라는 의미를 가집니다. title 속성을 사용하여 전체 단어를 지정 할 수 있으며, <dfn> 태그와 같이 사용하여 정의할 수 있습니다.",
+          "desc2": "<abbr> 태그는 줄임말이나 머리글자를 표현하는데 사용합니다.",
+          "element": "인라인 구조(Inline Element)",
+          "tag": "닫는 태그 사용(<abbr> ~ </abbr>)",
+          "version": "HTML4",
+          "view": "점선(브라우저마다 틀림) 및 툴팁",
+          "use": "★☆☆",
+          "definition": [
+            "<abbr> 태그는 abbreviation의 약자로, '약자 또는 생략어'라는 의미를 가집니다.",
+            "<abbr> 태그를 사용할 경우 번역 시스템이나 검색 시스템에게 유용한 정보를 제공합니다.",
+            "<abbr> 태그는 title 속성을 사용하여 전체 단어를 지정 할 수 있습니다.",
+            "<abbr> 태그는 <dfn> 태그와 같이 사용하여 정의할 수 있습니다.",
+            "<abbr> 태그에 아이디를 설정하여, <a> 링크로 참조할 수 있습니다.",
+            "<abbr> 태그는 시각적으로는 점선이 표시되지만 브라우저마다 표시가 다를 수 있습니다.",
+            "<abbr> 태그는 title 속성을 설정할 경우 마우스 오버시 툴팁 형식으로 약어가 표시됩니다."
+          ]
+        },
+        {
+          "id": 19,
+          "link": "https://webzz.tistory.com/231",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<acronym>",
+          "desc1": "<acronym> 태그는 줄임말이나 머리글자를 표현하는데 사용합니다. 현재는 사용하지 않습니다.",
+          "desc2": "<acronym> 태그는 줄임말이나 머리글자를 표현하는데 사용합니다.",
+          "element": "인라인 구조(Inline Element)",
+          "tag": "닫는 태그 사용(<acronym> ~ </acronym>)",
+          "version": "HTML4(HTML5에서 지원되지 않습니다.)",
+          "view": "점선(브라우저마다 틀림) 및 툴팁",
+          "use": "☆☆☆",
+          "definition": [
+            "<acronym> 태그는 줄임말이나 머리글자를 표현하는데 사용합니다.",
+            "<acronym>는 HTML4 태그이고, HTML5에서 지원되지 않는 오래된 태그입니다. 일부 브라우저에서 작동 될 수 있지만 사용을 권장하지 않습니다"
+          ]
+        },
+        {
+          "id": 20,
+          "link": "https://webzz.tistory.com/232",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<address>",
+          "desc1": "<address> 태그는 웹 페이지의 연락처 정보를 설정합니다. 사이트 주소, 전화번호, 이메일, 소설미디어, 위치 등의 정보와, 회사 정보, 회사 이름, 회사 주소 등과 관련된 정보를 표시합니다.",
+          "desc2": "<address> 태그는 웹 페이지의 연락처 정보를 설정합니다.",
+          "element": "블록 요소(Block Element)",
+          "tag": "닫는 태그 사용(<address> ~ </address>)",
+          "version": "HTML4",
+          "view": "기울임꼴",
+          "use": "★★★",
+          "definition": [
+            "<address> 태그는 사이트 주소, 전화번호, 이메일, 소설미디어, 위치 등을 표시합니다.",
+            "<address> 태그는 회사 정보, 회사 이름, 회사 주소 등과 관련된 정보를 표시합니다.",
+            "<address> 태그는 <header>, <article>, <footer>, <aside>등 연락처 정보가 필요한 곳에 사용할 수 있습니다.",
+            "<address> 태그는 연락처와 관련 없는 내용이라면 <p> 태그를 사용합니다.",
+            "<address> 태그는 연락처 정보 보다 더 광범위한 정보를 포함 할 수 없습니다.(시간을 나타내는 time 태그등)",
+            "<address> 태그는 일반적으로 <footer> 영역에서 많이 사용합니다."
+          ]
+        },
+        {
+          "id": 21,
+          "link": "https://webzz.tistory.com/233",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<applet>",
+          "desc1": "<applet> 태그는 애플랫 요소를 설정합니다. 현재는 사용하지 않습니다.",
+          "desc2": "<applet> 태그는 애플랫 요소를 설정합니다.",
+          "element": "-",
+          "tag": "닫는 태그 사용(<applet> ~ </applet>)",
+          "version": "HTML4(HTML5에서 지원하지 않습니다.)",
+          "view": "-",
+          "use": "☆☆☆",
+          "definition": [
+            "<applet> 태그는 자바 애플랫 요소를 설정합니다.",
+            "<applet> 태그는 자바 애플랫 요소를 사용하기 위한 개발자 소스였으나, 현재는 사용하지 않으며, <object> 태그를 사용합니다."
+          ]
+        },
+        {
+          "id": 22,
+          "link": "https://webzz.tistory.com/233",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<area>",
+          "desc1": "<area> 태그는 이미지 맵의 영역을 정의합니다.",
+          "desc2": "<area> 태그는 이미지 맵의 영역을 정의합니다.",
+          "element": "인라인 요소(Inline Element)",
+          "tag":  "닫는 태그 사용(<area> ~ </area>)",
+          "version": "HTML4",
+          "view": "-",
+          "use": "★☆☆",
+          "definition": [
+            "<area> 태그는 이미지 위에 영역 링크를 정의 할 때 간편하게 사용할 수 있습니다.",
+            "<area> 태그는 <map>, <img> 태그와 같이 사용합니다.",
+            "<area> 태그 shape 속성을 통해 영역을 모양(rect, circle, poly)을 설정합니다.",
+            "<area> 태그 cords 속성을 통해 영역을 위치를 설정합니다. cords의 위치 값은 프로그램을 통해 좌표 값을 얻는 방법이 쉽습니다.",
+            "<map> 태그의 name 속성과 이미지의 usemap 속성이 일치해야 적용됩니다.",
+            "이미지 위에 영역을 설정하고 링크를 설정하는 방법은 많이 사용하지 않습니다. 직접 링크를 걸고 사용하는 것을 추천합니다.",
+            "이미지 맵은 위치가 고정적이기 때문에 반응형 사이트에서 적용 할 수 없습니다."
+          ]
+        },
+        {
+          "id": 23,
+          "link": "https://webzz.tistory.com/233",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<article>",
+          "desc1": "<article> 태그는 사이트의 독립적인 컨텐츠 섹션을 설정합니다. 독립적인 컨텐츠에는 포럼, 신문기사, 잡지, 블러그 항목, 게시판 글 등이 있으며, 각각의 컨테츠에는 제목(<h1>~<h6>)이 표시되어야 합니다.",
+          "desc2": "<article> 태그는 사이트의 독립적인 컨텐츠 섹션을 설정합니다. 독립적인 컨텐츠에는 포럼, 신문기사, 잡지, 블러그 항목, 게시판 글 등이 있으며, 각각의 컨테츠에는 제목(<h1>~<h6>)이 표시되어야 합니다.",
+          "element": "블록 요소(Block Element)",
+          "tag":  "닫는 태그 사용(<article> ~ </article>)",
+          "version": "HTML5",
+          "view": "-",
+          "use": "★★☆",
+          "definition": [
+            "<article> 태그는 사이트의 독립적인 컨텐츠 섹션을 설정합니다.",
+            "<article> 태그는 포럼, 신문기사, 잡지, 블러그 항목, 게시판 글 등 콘텐츠의 독립적인 항목을 나타냅니다.",
+            "<article> 태그는 독립적인 컨텐츠의 내용이 명시적으로 나열되고, 각각의 컨테츠에는 제목(<h1>~<h6>)이 표시되어야 합니다.",
+            "<section>은 하나의 주제를 나타낸다면, <article>은 주제를 묶는 독립적인 콘텐츠를 나타냅니다.",
+            "<section> 요소 안에 <article> 요소를 쓸 수 있으며, <article> 요소 안에도 <section> 요소를 쓸 수 있습니다."
+          ]
+        },
+        {
+          "id": 24,
+          "link": "https://webzz.tistory.com/233",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<aside>",
+          "desc1": "<aside> 태그는 주요 콘텐츠의 보조적 컨텐츠 섹션을 설정합니다.",
+          "desc2": "<aside> 태그는 주요 콘텐츠의 보조적 컨텐츠 섹션을 설정합니다.",
+          "element": "블록 요소(Block Element)",
+          "tag":  "닫는 태그 사용(<aside> ~ </aside>)",
+          "version": "HTML5",
+          "view": "-",
+          "use": "★★☆",
+          "definition": [
+            "<aside> 태그는 주요 콘텐츠의 보조적 컨텐츠 섹션을 설정합니다.",
+            "<aside> 태그는 웹 페이지의 메인 콘텐츠와 관련된 사이드의 정보, 광고 등 부분적인 정보를 나타낼 때 사용합니다."
+          ]
+        },
+        {
+          "id": 25,
+          "link": "https://webzz.tistory.com/233",
+          "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://blog.kakaocdn.net/dn/KWSlV/btq4MTbqRrV/r2vIqzLlKBOtVKsBX8sga0/img.png",
+          "title": "<audio>",
+          "desc1": "<audio> 태그는 오디오 파일을 설정합니다.",
+          "desc2": "<audio> 태그는 오디오 파일을 설정합니다.",
+          "element": "인라인 요소(Inline Element)",
+          "tag":  "닫는 태그 사용(<audio> ~ </audio>)",
+          "version": "HTML5",
+          "view": "-",
+          "use": "★☆☆",
+          "definition": [
+            "<audio> 태그는 오디오 파일을 설정합니다.",
+            "<audio> 태그는 오디오 파일을 재생할 때 src 속성 또는 <source> 태그를 사용합니다.",
+            "<audio> 태그는 controls 속성이 지정되지 않으면, 시각적인 표시가 없으며, 이 경우 브라우저의 기본 컨트롤이 표시됩니다.",
+            "기본 컨트롤러에는 테두리(border), 굴곡(border-radius), 간격(padding, margin) 등을 설정할 수 있습니다.",
+            "오디오 플레이어 개별 구성 요소(버튼, 아이콘, 글꼴 등)는 스타일을 지정할 수 없으며, 컨트롤 디자인은 브라우저마다 다릅니다."
+            ]
+        }
+      ],
+      "cssRefer": [
+        {
+          "id": 1,
+          "title": "align-content",
+          "desc1": "align-content 속성은 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
+          "desc2": "align-content 속성은 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
+          "basic": "align-content : stretch",
+          "apply": "flexbox",
+          "version": "CSS3",
+          "use": "★★★",
+          "grammer": "align-content : stretch | center | flex-start | flex-end | space-between | space-around",
+          "definition": [
+            "align-content 속성은 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
+            "align-content 속성은 한 줄(flex-wrap: nowrap)에서는 의미가 없습니다."
+          ],
+          "property": [
+            {"sub": "center", "desc": "요소의 상하 정렬 상태를 가운데로 설정합니다"},
+            {"sub": "flex-start", "desc": "요소의 상하 정렬 상태를 위쪽으로 설정합니다."},
+            {"sub": "flex-end", "desc": "요소의 정렬 상태를 기본으로 설정합니다."},
+            {"sub": "stretch", "desc": "요소의 정렬 상태를 기본으로 설정합니다."},
+            {"sub": "space-between", "desc": "요소와 요소사이의 간격을 위쪽과 아래쪽을 기준으로 설정합니다."},
+            {"sub": "space-around", "desc": "요소의 정렬 상태를 기본으로 설정합니다."},
+            {"sub": "inherit", "desc": "align-content의 속성 값을 상위요소한테 상속받습니다."}
+          ]
+        },
+        {
+          "id": 2,
+          "title": "align-items",
+          "desc1": "align-items 속성은 콘텐츠 아이템의 내부 상하관계 정렬 상태를 설정합니다.",
+          "desc2": "align-items 속성은 콘텐츠 아이템의 내부 상하관계 정렬 상태를 설정합니다.",
+          "basic": "align-items : stretch",
+          "apply": "flexbox",
+          "version": "CSS3",
+          "use": "★★★",
+          "grammer": "align-items : stretch | center | flex-start | flex-end | baseline",
+          "definition": [
+            "align-items 속성은 콘텐츠 아이템의 내부 상하관계 정렬 상태를 설정합니다.",
+            "align-content 속성은 컨테이너의 높이 값을 기준으로 정렬하고 align-items 속성은 아이템의 높이 값을 기준으로 정렬합니다."
+          ],
+          "property": [
+            {"sub": "stretch", "desc": "요소의 정렬 상태를 기본 값으로 설정합니다."},
+            {"sub": "center", "desc": "요소의 정렬 상태를 가운데로 설정합니다."},
+            {"sub": "flex-start", "desc": "요소의 정렬 상태를 위쪽으로 설정합니다."},
+            {"sub": "flex-end", "desc": "요소의 정렬 상태를 아래쪽으로 설정합니다."},
+            {"sub": "baseline", "desc": "요소의 정렬 상태를 폰트를 기준으로 설정합니다."}
+          ]
+        },
+        {
+          "id": 3,
+          "title": "align-self",
+          "desc1": "align-self 속성은 개별적인 콘텐츠 아이템의 정렬 상태를 설정합니다.",
+          "desc2": "align-self 속성은 개별적인 콘텐츠 아이템의 정렬 상태를 설정합니다.",
+          "basic": "align-self : auto",
+          "apply": "flexbox",
+          "version": "CSS3",
+          "use": "★★★",
+          "grammer": "align-self: auto | stretch | center | flex-start | flex-end | baseline",
+          "definition": [
+            "align-self 속성은 개별적인 플렉스 아이템의 정렬 상태를 설정합니다.",
+            "align-self 속성은 플렉스 아이템에 설정하고, align-item와 align-content는 플렉스 컨테이너에 설정합니다."
+          ],
+          "property": [
+            {"sub": "auto", "desc": "요소의 정렬 상태를 기본으로 설정합니다."},
+            {"sub": "stretch", "desc": "요소의 가로 영역 값을 최대로 설정합니다."},
+            {"sub": "center", "desc": "요소의 정렬을 가운데로 설정합니다."},
+            {"sub": "flex-start", "desc": "요소의 정렬을 시작점으로 설정합니다."},
+            {"sub": "flex-end", "desc": "요소의 정렬을 끝점으로 설정합니다."},
+            {"sub": "baseline", "desc": "요소의 정렬을 폰트를 기준으로 설정합니다."},
+            {"sub": "inherit", "desc": "요소의 속성 값을 상위 요소한테 상속받습니다."}
+          ]
+        },
+        {
+          "id": 4,
+          "title": "all",
+          "desc1": "all 속성은 요소의 속성을 초기화 또는 상속을 설정합니다.",
+          "desc2": "all 속성은 요소의 속성을 초기화 또는 상속을 설정합니다.",
+          "basic": "all : auto",
+          "apply": "모든 속성",
+          "version": "CSS3",
+          "use": "☆☆☆",
+          "grammer": "all : initial | inherit | unset | revert",
+          "definition": [
+            "all 속성은 요소의 속성을 초기화 또는 상속을 설정합니다.",
+            "all 속성은 모든 요소에 설정 가능합니다."
+          ],
+          "property": [
+            {"sub": "initial", "desc": "요소의 모든 속성을 초기화합니다."},
+            {"sub": "inherit", "desc": "요소의 속성을 상속받어 적용합니다."},
+            {"sub": "unset", "desc": "상속되는 경우는 상속값으로, 그렇지 않으면 초기값으로 설정됩니다."},
+            {"sub": "revert", "desc": "선언된 CSS따라 다르게 적용됩니다."}
+          ]
+        },
+        {
+          "id": 5,
+          "title": "animation",
+          "desc1": "animation 속성은 애니메이션과 관련된 속성을 일괄적으로 설정합니다.",
+          "desc2": "애니메이션은 움직임 시간, 움직임 지연 시간, 움직임 방향, 움직임 속도, 움직임 진행상태, 움직임 반복 횟수, 움직임 진행상태, 움직임 속도, 키프레임 이름 등을 설정하여 원하는 애니메이션을 구현 할 수 있습니다.",
+          "basic": "animation-name: none<br>animation-duration: 0s<br>animation-timing-function: ease<br>animation-delay: 0s<br>animation-iteration-count: 1<br>animation-direction: normal<br>animation-fill-mode: none<br>animation-play-state: running",
+          "apply": "상속안됨",
+          "version": "CSS3",
+          "use": "★★★",
+          "grammer": "animation: @keyframes name | duration | timing-function | delay | iteration-count | direction | fill-mode | play-state;",
+          "definition": [
+            "animation 속성은 애니메이션과 관련된 속성을 일괄적으로 설정합니다."
+          ],
+          "property": [
+            {"sub": "name", "desc": "애니메이션 keyframe 이름을 설정합니다."},
+            {"sub": "duration", "desc": "애니메이션 움직임 시간을 설정합니다."},
+            {"sub": "timing-function", "desc": "애니메이션 움직임 속도를 정의합니다."},
+            {"sub": "delay", "desc": "애니메이션이 로드된 후 애니메이션이 시작될 때 까지의 시간을 나타냅니다."},
+            {"sub": "iteration-count", "desc": "애니메이션 반복 횟수 설정합니다."},
+            {"sub": "direction", "desc": "애니메이션 움직임 방향을 설정합니다."},
+            {"sub": "fill-mode", "desc": "애니메이션이 끝난 후의 상태를 설정합니다."},
+            {"sub": "play-state", "desc": "애니메이션 진행상태를 설정합니다."}
+          ]
+        },
+        {
+          "id": 6,
+          "title": "animation-delay",
+          "desc1": "animation-delay 속성은 애니메이션 지연 시간을 설정합니다.",
+          "desc2": "애니메이션은 움직임 시간, 움직임 지연 시간, 움직임 방향, 움직임 속도, 움직임 진행상태, 움직임 반복 횟수, 움직임 진행상태, 움직임 속도, 키프레임 이름 등을 설정하여 원하는 애니메이션을 구현 할 수 있습니다.",
+          "basic": "animation-delay: 0s;",
+          "apply": "animations",
+          "version": "CSS3",
+          "use": "★★★",
+          "grammer": "animation-delay : time | inherit;",
+          "definition": [
+            "animation-delay 속성은 애니메이션 지연 시간을 설정합니다."
+          ],
+          "property": [
+            {"sub": "time", "desc": "요소가 로드된 후 애니메이션이 시작될 때 까지의 시간을 설정합니다."},
+            {"sub": "inherit", "desc": "부모 요소의 속성을 상속받습니다."}
+          ]
+        },
+        {
+          "id": 7,
+          "title": "animation-direction",
+          "desc1": "animation-direction 속성은 애니메이션 움직임 방향을 설정합니다.",
+          "desc2": "애니메이션은 움직임 시간, 움직임 지연 시간, 움직임 방향, 움직임 속도, 움직임 진행상태, 움직임 반복 횟수, 움직임 진행상태, 움직임 속도, 키프레임 이름 등을 설정하여 원하는 애니메이션을 구현 할 수 있습니다.",
+          "basic": "animation-direction : normal;",
+          "apply": "animations",
+          "version": "CSS3",
+          "use": "★★★",
+          "grammer": "animation-direction : normal | reverse | alternate | alternate-reverse | inherit;",
+          "definition": [
+            "animation-direction 속성은 애니메이션 움직임 방향을 설정합니다.",
+            "animation-direction 속성에는 움직임 속성을 두개 이상 설정 할 수 있습니다."
+          ],
+          "property": [
+            {"sub": "normal", "desc": "애니메이션의 방향을 정상적(기본값)으로 설정합니다."},
+            {"sub": "reverse", "desc": "애니메이션 움직임의 방향을 역방향으로 설정합니다."},
+            {"sub": "alternate", "desc": "애니메이션 움직임의 방향을 순방향을 진행 후 역방향으로 설정합니다."},
+            {"sub": "alternate-reverse", "desc": "애니메이션 움직임의 방향을 역방향을 진행 후 순방향으로 설정합니다."},
+            {"sub": "inherit", "desc": "애니메이션 움직임을 상위 요소한테 상속받습니다."}
+          ]
+        },
+        {
+          "id": 8,
+          "title": "<CSS>",
+          "desc1": "애니메이션은 움직임 시간, 움직임 지연 시간, 움직임 방향, 움직임 속도, 움직임 진행상태, 움직임 반복 횟수, 움직임 진행상태, 움직임 속도, 키프레임 이름 등을 설정하여 원하는 애니메이션을 구현 할 수 있습니다.",
+          "desc2": "animation-duration 속성은 애니메이션 움직임 시간을 설정합니다.",
+          "basic": "animation-duration : 0s;",
+          "apply": "animations",
+          "version": "CSS3",
+          "use": "★★★",
+          "grammer": "animation-duration : time | inherit;",
+          "definition": [
+            "animation-duration 속성은 애니메이션 움직임 시간을 설정합니다.",
+            "animation-duration 속성에는 시간 속성을 두개 이상 설정 할 수 있습니다."
+          ],
+          "property": [
+            {"sub": "time", "desc": "애니메이션의 작동 시간을 설정합니다."},
+            {"sub": "inherit", "desc": "애니메이션 움직임을 상위 요소한테 상속받습니다."}
+          ]
+        },
+        {
+          "id": 9,
+          "title": "<animation-fill-mode>",
+          "desc1": "애니메이션은 움직임 시간, 움직임 지연 시간, 움직임 방향, 움직임 속도, 움직임 진행상태, 움직임 반복 횟수, 움직임 진행상태, 움직임 속도, 키프레임 이름 등을 설정하여 원하는 애니메이션을 구현 할 수 있습니다.",
+          "desc2": "animation-fill-mode 속성은 애니메이션이 끝난 후의 상태를 설정합니다.",
+          "basic": "animation-fill-mode : none;",
+          "apply": "animations",
+          "version": "CSS3",
+          "use": "★★☆",
+          "grammer": "animation-duration : time | inherit;",
+          "definition": [
+            "animation-fill-mode 속성은 애니메이션이 끝난 후의 상태를 설정합니다."
+          ],
+          "property": [
+            {"sub": "normal", "desc": "애니메이션이 끝난 후 상태를 설정하지 않습니다."},
+            {"sub": "forwards", "desc": "애니메이션이 끝난 후 그 지점에 그대로 있습니다."},
+            {"sub": "backwards", "desc": "애니메이션이 끝난 후 시작점으로 돌아옵니다."},
+            {"sub": "both", "desc": "애니메이션이의 앞 뒤 결과를 조합하여 설정합니다."},
+            {"inherit": "inherit", "desc": "애니메이션의 상태를 상위 요소한테 상속받습니다."}
+          ]
+        },
+        {
+          "id": 10,
+          "title": "<animation-iteration-count>",
+          "desc1": "애니메이션은 움직임 시간, 움직임 지연 시간, 움직임 방향, 움직임 속도, 움직임 진행상태, 움직임 반복 횟수, 움직임 진행상태, 움직임 속도, 키프레임 이름 등을 설정하여 원하는 애니메이션을 구현 할 수 있습니다.",
+          "desc2": "animation-iteration-count 속성은 애니메이션 반복 횟수 설정합니다.",
+          "basic": "animation-iteration-count : none;",
+          "apply": "animations",
+          "version": "CSS3",
+          "use": "★★★",
+          "grammer": "animation-iteration-count : number | infinite | inherit;",
+          "definition": [
+            "animation-iteration-count 속성은 애니메이션 반복 횟수 설정합니다."
+          ],
+          "property": [
+            {"sub": "number", "desc": "애니메이션 반복 횟수를 숫자를 통해 설정합니다."},
+            {"sub": "infinite", "desc": "애니메이션 반복 횟수를 무한으로 설정합니다."},
+            {"sub": "inherit", "desc": "애니메이션 속성을 상속받습니다."}
+          ]
+        },
+        {
+          "id": 11,
+          "title": "<animation-name>",
+          "desc1": "애니메이션은 움직임 시간, 움직임 지연 시간, 움직임 방향, 움직임 속도, 움직임 진행상태, 움직임 반복 횟수, 움직임 진행상태, 움직임 속도, 키프레임 이름 등을 설정하여 원하는 애니메이션을 구현 할 수 있습니다.",
+          "desc2": "animation-name 속성은 애니메이션 keyframe 이름을 설정합니다.",
+          "basic": "animation-name : none;",
+          "apply": "animations",
+          "version": "CSS3",
+          "use": "★★★",
+          "grammer": "animation-name : keyframe name | none | inherit;",
+          "definition": [
+            "animation-name 속성은 애니메이션 keyframe 이름을 설정합니다."
+          ],
+          "property": [
+            {"sub": "keyframe name", "desc": "움직임을 표현한 Keyframes의 이름을 설정합니다."},
+            {"sub": "none", "desc": "애니메이션 움직임을 적용하지 않습니다."},
+            {"sub": "inherit", "desc": "애니메이션 속성을 상속받습니다."}
+          ]
+        },
+        {
+          "id": 12,
+          "title": "<animation-play-state>",
+          "desc1": "애니메이션은 움직임 시간, 움직임 지연 시간, 움직임 방향, 움직임 속도, 움직임 진행상태, 움직임 반복 횟수, 움직임 진행상태, 움직임 속도, 키프레임 이름 등을 설정하여 원하는 애니메이션을 구현 할 수 있습니다.",
+          "desc2": "animation-play-state 속성은 애니메이션 진행상태를 설정합니다.",
+          "basic": "animation-play-state : running;",
+          "apply": "animations",
+          "version": "CSS3",
+          "use": "★★☆",
+          "grammer": "animation-name : keyframe name | none | inherit;",
+          "definition": [
+            "animation-play-state 속성은 애니메이션 진행상태를 설정합니다."
+          ],
+          "property": [
+            {"sub": "paused", "desc": "애니메이션의 움직임을 정지시킵니다."},
+            {"sub": "running", "desc": "애니메이션을 움직이게 합니다."},
+            {"sub": "inherit", "desc": "애니메이션 속성을 상속받습니다."}
+          ]
+        },
+        {
+          "id": 13,
+          "title": "<animation-timing-function>",
+          "desc1": "애니메이션은 움직임 시간, 움직임 지연 시간, 움직임 방향, 움직임 속도, 움직임 진행상태, 움직임 반복 횟수, 움직임 진행상태, 움직임 속도, 키프레임 이름 등을 설정하여 원하는 애니메이션을 구현 할 수 있습니다.",
+          "desc2": "animation-play-state 속성은 애니메이션 진행상태를 설정합니다.",
+          "basic": "animation-timing-function : linear;",
+          "apply": "animations",
+          "version": "CSS3",
+          "use": "★★☆",
+          "grammer": "animation-timing-function : linear | ease | ease-in | ease-out | ease-in-out | step-start | step-end | steps(int,start|end) | cubic-bezier(n,n,n,n) | inherit;",
+          "definition": [
+            "animation-timing-function 속성은 애니메이션 움직임의 속도를 설정합니다."
+          ],
+          "property": [
+            {"sub": "linear", "desc": "처음 속도와 마지막 속도가 일정합니다."},
+            {"sub": "ease", "desc": "처음엔 천천히 시작하여 빨라지고 마지막에 다시 느려집니다."},
+            {"sub": "ease-in", "desc": "천천히 시작되어 정상 속도가 됩니다."},
+            {"sub": "ease-out", "desc": "마지막에 천천히 속도를 줄여 끝납니다."},
+            {"sub": "ease-in-out", "desc": "천천히 시작되어 정상 속도가 되었다가 마지막에 느려집니다."},
+            {"sub": "step-start", "desc": "애니메이션을 시작점에서만 표현됩니다."},
+            {"sub": "step-end", "desc": "애니메이션을 끝점에서만 표현됩니다."},
+            {"sub": "steps(int, start|end)", "desc": "애니메이션을 단계별로 설정합니다."},
+            {"sub": "cubic-bezier(n,n,n,n)", "desc": "베지어 곡선값을 만들어서 속도를 설정합니다."},
+            {"sub": "inherit", "desc": "애니메이션 움직임을 상위 요소한테 상속받습니다."}
+          ]
+        },
+        {
+          "id": 14,
+          "title": "<backdrop-filter>",
+          "desc1": "backdrop-filter 속성은 배경에 그래픽 효과를 설정합니다.",
+          "desc2": "backdrop-filter 속성은 배경에 그래픽 효과를 설정합니다.",
+          "basic": "backdrop-filter : none",
+          "apply": "animations",
+          "version": "CSS3",
+          "use": "★☆☆",
+          "grammer": "backdrop-filter : none | blur() | brightness() | contrast() | drop-shadow() | grayscale() | hue-rotate() | invert() | opacity() | sepia() | saturate()",
+          "definition": [
+            "backdrop-filter 속성은 배경에 그래픽 효과를 설정합니다.",
+            "요소의 배경을 반투명 설정하여야 효과를 확인할 수 있습니다."
+          ],
+          "property" : [
+            {"sub":"none","desc":"이미지의 아무런 효과를 주지 않습니다."},
+            {"sub":"blur(px)","desc":"이미지의 블러 효과를 설정합니다."},
+            {"sub":"brightness(%)","desc":"이미지의 밝고 어두움 정도를 설정합니다."},
+            {"sub":"contrast(%)","desc":"이미지의 대비를 설정합니다."},
+            {"sub":"drop-shadow()","desc":"이미지의 그림자를 설정합니다."},
+            {"sub":"grayscale(%)","desc":"이미지의 그레이스케일를 설정합니다."},
+            {"sub":"hue-rotate(deg)","desc":"이미지의 색조를 설정합니다."},
+            {"sub":"invert(%)","desc":"이미지를 반전합니다."},
+            {"sub":"opacity(%)","desc":"이미지의 투명도를 설정합니다."},
+            {"sub":"saturate(%)","desc":"이미지의 채도를 설정합니다."},
+            {"sub":"sepia(%)","desc":"이미지의 세피아 효과를 설정합니다."},
+            {"sub":"url()","desc":"이미지의 경로를 설정합니다."},
+            {"sub":"inherit","desc":"상위 요소의 속성 값을 상속받습니다."}
+          ]
+        },
+        {
+          "id": 15,
+          "title": "<backface-visibility>",
+          "desc1": "backface-visibility 속성은 요소의 뒷면을 설정합니다.",
+          "desc2": "backface-visibility 속성은 요소의 뒷면을 설정합니다.",
+          "basic": "backface-visibility : visible;",
+          "apply": "-",
+          "version": "CSS3",
+          "use": "★☆☆",
+          "grammar" : "backface-visibility : visible | hidden;",
+          "definition": [
+              "backface-visibility 속성은 요소의 뒷면을 설정합니다.",
+              "2D 상태에서는 뒷면을 확인할 수 없지만 3D 공간에서는 뒷면을 확인 할 수 있습니다."
+          ],
+          "property" : [
+            {"sub":"visible","desc":"요소의 뒷면을 보이도록 설정합니다."},
+            {"sub":"hidden","desc":"요소의 뒷면을 보이지 않도록  설정합니다."}
+          ]
+      },
+      {
+          "id": 16,
+          "title": "<background>",
+          "desc1": "background 속성은 백그라운드 속성을 일괄적으로 설정합니다.",
+          "desc2": "background 속성은 백그라운드 속성을 일괄적으로 설정합니다.",
+          "basic": "background-attachment: scroll;<br> background-clip: border-box;<br> background-color: transparent;<br> background-image: none;<br> background-origin: padding-box;<br> background-position: 0% 0%;<br> background-repeat: repeat;<br> background-size: auto auto;",
+          "apply": "background",
+          "version": "CSS3",
+          "use": "★★★",
+          "grammar" : "background : background-attachment | background-clip | background-color | background-image | background-origin | background-position | background-repeat | background-size | inherit;",
+          "definition": [
+              "background 백그라운드 속성을 일괄적으로 설정합니다."
+          ],
+          "property" : [
+            {"sub":"background-attachment","desc":"배경 이미지의 고정 여부를 설정합니다."},
+            {"sub":"background-clip","desc":"백그라운드 이미지의 위치 기준점을 설정합니다."},
+            {"sub":"background-color","desc":"백그라운드 색을 설정합니다."},
+            {"sub":"background-image","desc":"백그라운드 이미지 및 배경 속성을 설정합니다."},
+            {"sub":"background-origin","desc":"백그라운드 이미지의 위치 기준점을 설정합니다."},
+            {"sub":"background-position","desc":"백그라운드 이미지의 위치 영역을 설정합니다."},
+            {"sub":"background-repeat","desc":"백그라운드 이미지 반복 여부를 설정합니다"},
+            {"sub":"background-size","desc":"백그라운드 이미지 사이즈를 설정합니다."},
+            {"sub":"inherit","desc":"속성 값을 상위 요소한테 상속받습니다."}
+          ]
+      },
+      {
+          "id": 17,
+          "title": "<background-attachment>",
+          "desc1": "background-attachment 속성은 배경 이미지의 고정 여부를 설정합니다.",
+          "desc2": "background-attachment 속성은 배경 이미지의 고정 여부를 설정합니다.",
+          "basic": "background-attachment: scroll;",
+          "apply": "background",
+          "version": "CSS1",
+          "use": "★★☆",
+          "grammar" : "background-attachment : scroll | fixed | local;",
+          "definition": [
+              "background-attachment 속성은 배경 이미지의 고정 여부를 설정합니다.",
+              "background-attachment 속성의 multiple backgrounds는 익스플로러9 버전 이상부터 지원됩니다."
+          ],
+          "property" : [
+            {"sub":"scroll","desc":"배경이미지와 콘텐츠를 표현하는 기본값입니다."},
+            {"sub":"fixed","desc":"배경이미지를 고정하고, 콘텐츠만 움직입니다."},
+            {"sub":"local","desc":"배경이미지와 콘텐츠가 같이 움직입니다."}
+          ]
+      },
+      {
+          "id": 18,
+          "title": "<background-blend-mode>",
+          "desc1": "background-blend-mode 속성은 배경을 혼합했을 때의 상태를 설정합니다.",
+          "desc2": "background-blend-mode 속성은 배경을 혼합했을 때의 상태를 설정합니다.",
+          "basic": "background-blend-mode : normal;",
+          "apply": "background",
+          "version": "CSS1",
+          "use": "★★☆",
+          "grammar" : "background-blend-mode : normal | multiply | screen | overlay | darken | lighten | color-dodge | color-burn | hard-light | soft-light | difference | exclusion | hue | saturation | color | luminosity",
+          "definition": [
+              "background-blend-mode 속성은 배경을 혼합했을 때의 상태를 설정합니다.",
+              "blend-mode는 크게 background-blend-mode와 mix-blend-mode로 설정됩니다.",
+              "포토샵의 브렌드 모드와 동일한 효과입니다."
+          ],
+          "property" : [
+              {"sub":"normal","desc":"배경색의 기본 값을 정의합니다."},
+              {"sub":"multiply","desc":"배경의 혼합 상태를 multiply(어둡게)으로 정의합니다."},
+              {"sub":"screen","desc":"배경의 혼합 상태를 screen(밝게)으로 정의합니다."},
+              {"sub":"overlay","desc":"배경의 혼합 상태를 overlay으로 정의합니다."},
+              {"sub":"darken","desc":"배경의 혼합 상태를 darken으로 정의합니다."},
+              {"sub":"lighten","desc":"배경의 혼합 상태를 lighten으로 정의합니다."},
+              {"sub":"color-dodge","desc":"배경의 혼합 상태를 color-dodge으로 정의합니다."},
+              {"sub":"color-burn","desc":"배경의 혼합 상태를 color-burn으로 정의합니다."},
+              {"sub":"difference","desc":"배경의 혼합 상태를 difference으로 정의합니다."},
+              {"sub":"exclusion","desc":"배경의 혼합 상태를 exclusion으로 정의합니다."},
+              {"sub":"hue","desc":"배경의 혼합 상태를 hue으로 정의합니다."}
+          ]
+      },
+      {
+          "id": 19,
+          "title": "<background-clip>",
+          "desc1": "background-clip 속성은 백그라운드 이미지의 위치 기준점을 설정하기 위한 속성입니다.",
+          "desc2": "background-clip 속성은 백그라운드 이미지의 위치 기준점을 설정하기 위한 속성입니다.",
+          "basic": "background-clip : border-box;",
+          "apply": "background",
+          "version": "CSS1",
+          "use": "★☆☆",
+          "grammar" : "background-clip : border-box | padding-box | content-box | text",
+          "definition": [
+              "background-clip 속성은 백그라운드 이미지의 위치 기준점을 설정하기 위한 속성입니다.",
+              "clip은 걸다, 끼우다의 뜻으로 background-clip 배경 이미지를 어디에 설정하지를 설정합니다.",
+              "background-clip 기준점은 보더(border), 패딩(padding), 컨텐츠, 텍스트(text)에 설정할 수 있습니다.",
+              "텍스트(text)속성은 베타 버전이기 때문에 접두사(-webkit)을 표현해야 합니다.(2021년 기준)"
+          ],
+          "property" : [
+            {"sub":"border-box","desc":"백그라운드 속성이 테두리 영역까지 포함하여 표현됩니다."},
+            {"sub":"padding-box","desc":"배경색의 기본 값을 정의합니다."},
+            {"sub":"content-box","desc":"백그라운드 속성이 테두리 영역을 제외하여 표현됩니다."},
+            {"sub":"text","desc":"텍스트 영역에 백그라운드 이미지가 표현됩니다."}
+          ]
+      },
+      {
+          "id": 20,
+          "title": "<background-color>",
+          "desc1": "background-color 속성은 백그라운드 색을 설정합니다.",
+          "desc2": "background-color 속성은 백그라운드 색을 설정합니다.",
+          "basic": "background-color : transparent",
+          "apply": "background",
+          "version": "CSS1",
+          "use": "★★★",
+          "grammar" : "background-color : color | transparent",
+          "definition": [
+              "background-color 속성은 백그라운드 색을 설정합니다."
+          ],
+          "property" : [
+            {"sub":"color","desc":"background-color를 설정합니다."},
+            {"sub":"transparent","desc":"background-color를 투명하게 설정합니다."}
+          ]
+      },
+      {
+          "id": 21,
+          "title": "<background-image>",
+          "desc1": "background-image 속성은 백그라운드 이미지 및 배경 속성을 설정합니다.",
+          "desc2": "background-image 속성은 백그라운드 이미지 및 배경 속성을 설정합니다.",
+          "basic": "background-image : transparent",
+          "apply": "background",
+          "version": "CSS1",
+          "use": "★★★",
+          "grammar" : "background-image : url | none",
+          "definition": [
+              "background-image 속성은 백그라운드 이미지 및 배경 속성을 설정합니다.",
+              "background-image 속성은 다중 이미지를 익스플로러9 이상부터 지원됩니다."
+          ],
+          "property" : [
+            {"sub":"url","desc":"background-image 주소를 설정합니다."},
+            {"sub":"none","desc":"background-image를 설정하지 않습니다."},
+            {"sub":"radial-gradient","desc":"선형 그라데이션 백그라운를 설정합니다."},
+            {"sub":"linear-gradient","desc":"원형 그라데이션 백그라운를 설정합니다."},
+            {"sub":"repeating-linear-gradient","desc":"반복 선형 그라데이션 백그라운를 설정합니다."},
+            {"sub":"repeating-radial-gradient","desc":"반복 원형 그라데이션 백그라운를 설정합니다."}
+          ]
+        }
+      ],
+      "jsRefer" : [
+        {
+            "id": 1,
+            "title": ".appendChild()",
+            "desc2": ".appendChild()는 선택한 요소 마지막 위치에 새로운 요소를 추가합니다.",
+            "returns": "-",
+            "syntax": "요소.appendChild('요소')",
+            "definition": [".appendChild()는 메소드는 선택한 요소 마지막 위치에 새로운 요소를 추가합니다."],
+            "link": "https://developer.mozilla.org/ko/docs/Web/API/Node/appendChild"
+        },
+        {
+            "id": 2,
+            "title": ".alert()",
+            "desc2": ".alert() 메서드는 경고창을 표시합니다.",
+            "returns": "return 없음",
+            "syntax": "요소.appendChild('요소')",
+            "definition": [".alert() 메서드는 경고창을 표시합니다."],
+            "link": "-"
+        },
+        {
+            "id": 3,
+            "title": ".availHeight",
+            "desc2": ".availHeight 속성은 작업표시줄을 제외한 화면의 사용 가능한 높이 값을 반환합니다.",
+            "returns": "-",
+            "syntax": "screen.availHeight",
+            "definition": [".availHeight 속성은 작업표시줄을 제외한 화면의 사용 가능한 높이 값을 반환합니다."],
+            "link": "https://developer.mozilla.org/en-US/docs/Web/API/Screen/availHeight"
+        },
+        {
+            "id": 4,
+            "title": ".availWidth",
+            "desc2": ".availWidth 속성은 작업표시줄을 제외한 화면의 사용 가능한 너비 값을 반환합니다.",
+            "returns": "-",
+            "syntax": "screen.availWidth",
+            "definition": [".availWidth 속성은 작업표시줄을 제외한 화면의 사용 가능한 너비 값을 반환합니다."],
+            "link": "https://developer.mozilla.org/en-US/docs/Web/API/Screen/availWidth"
+        },
+        {
+            "id": 5,
+            "title": ".assign()",
+            "desc2": ".assign() 메서드는 새로운 문서를 로드합니다.",
+            "returns": "-",
+            "syntax": "history.assign()",
+            "definition": [".assign() 메서드는 새로운 문서를 로드합니다."],
+            "link": "https://developer.mozilla.org/en-US/docs/Web/API/Location/assign"
+        },
+        {
+            "id": 6,
+            "title": ".back()",
+            "desc2": ".back() 메서드는 이전 방문한 페이지로 이동합니다.",
+            "returns": "-",
+            "syntax": "history.back()",
+            "definition": [".back() 메서드는 이전 방문한 페이지로 이동합니다."],
+            "link": "https://developer.mozilla.org/en-US/docs/Web/API/History/back"
+        },
+        {
+            "id": 7,
+            "title": ".blur()",
+            "desc2": ".blur() 메서드는 현재 윈도우의 포커스를 없애줍니다.",
+            "returns": "-",
+            "syntax": "Window.blur()",
+            "definition": [".blur() 메서드는 현재 윈도우의 포커스를 없애줍니다."],
+            "link": "-"
+        },
+        {
+            "id": 8,
+            "title": ".concat()",
+            "desc2": ".concat() 메서드는 여러 개의 배열을 새 배열로 반환합니다.",
+            "returns": "새로운 배열 객체",
+            "syntax": "Array.concat('속성1','속성2',....)",
+            "definition": [
+              ".concat() 메서드는 여러 개의 배열을 새 배열로 반환합니다."
+            ],
+            "link": "https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/concat"
+        },
+        {
+            "id": 9,
+            "title": ".confirm()",
+            "desc2": ".confirm() 메서드는 확인 창을 표시합니다.",
+            "returns": "불린(Broolen)",
+            "syntax": "window.alert('내용')",
+            "definition": [
+              ".confirm() 메서드는 확인 창을 표시합니다.",
+              "확인 창에는 확인과 취소 버튼이 표시되며, 확인은 true, 취소는 false를 반환합니다."
+            ],
+            "link": "https://developer.mozilla.org/ko/docs/Web/API/Window/confirm"
+        },
+        {
+            "id": 10,
+            "title": ".charAt()",
+            "desc2": ".charAt() 메서드는 문자열에서 인덱스 번호에 해당하는 문자를 반환합니다.",
+            "returns": "유니코드 단일문자",
+            "syntax": "String.charAt(인덱스)",
+            "definition": [
+              ".charAt() 메서드는 문자열에서 인덱스 번호에 해당하는 문자를 반환합니다."
+            ],
+            "link": "https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/charAt"
+        },
+        {
+            "id": 11,
+            "title": ".charCodeAt()",
+            "desc2": ".charCodeAt() 메서드는 문자열에서 인덱스에 대한 유니코드를 나타내는 0부터 65535 사이의 정수를 반환합니다.",
+            "returns": "숫자",
+            "syntax": "String.charCodeAt(인덱스)",
+            "definition": [
+              ".charCodeAt() 메서드는 문자열에서 인덱스에 대한 유니코드를 나타내는 0부터 65535 사이의 정수를 반환합니다."
+            ],
+            "link": "https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt"
+        },
+        {
+            "id": 12,
+            "title": ".codePointAt()",
+            "desc2": ".codePointAt() 메서드는 문자열에서 인덱스에 대한 유니코드 포인트 값인 아닌 정수를 반환합니다.",
+            "returns": "정수 or undefined",
+            "syntax": "String.codePointAt()",
+            "definition": [
+              ".codePointAt() 메서드는 문자열에서 인덱스에 대한 유니코드 포인트 값인 아닌 정수를 반환합니다."
+            ],
+            "link": "https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt"
+        },
+        {
+            "id": 13,
+            "title": ".clearInterval()",
+            "desc2": ".clearInterval() 메서드는 일정 시간마다 함수를 반복(setInterval())하는 것을 중지합니다.",
+            "returns": "undefined",
+            "syntax": "window.clearInterval()",
+            "definition": [
+              ".clearInterval() 메서드는 일정 시간마다 함수를 반복(setInterval())하는 것을 중지합니다."
+            ],
+            "link": "https://developer.mozilla.org/en-US/docs/Web/API/clearInterval"
+        },
+        {
+            "id": 14,
+            "title": ".clearTimeout()",
+            "desc2": ".clearTimeout() 메서드는 일정 시간 후 함수를 한 번 실행(setTimeout())하는 것을 중지합니다.",
+            "returns": "undefined",
+            "syntax": "window.clearTimeout()",
+            "definition": [
+              ".clearTimeout() 메서드는 일정 시간 후 함수를 한 번 실행(setTimeout())하는 것을 중지합니다."
+            ],
+            "link": "https://developer.mozilla.org/en-US/docs/Web/API/clearTimeout"
+        },
+        {
+            "id": 15,
+            "title": ".endsWith()",
+            "desc2": ".endsWith() 메서드는 문자열에서 특정 문자열로 끝나는지를 확인합니다.",
+            "returns" : "true or false",
+            "syntax": "String.endsWith(검색 문자열, 길이 값)",
+            "definition": [
+                ".endsWith() 메서드는 문자열에서 특정 문자열로 끝나는지를 확인합니다."
+            ],
+            "link" : "https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith"
+        },
+        {
+            "id": 16,
+            "title": ".forward()",
+            "desc2": ".forward() 메서드는 다음 방문한 페이지로 이동합니다.",
+            "returns" : "-",
+            "syntax": "history.forward()",
+            "definition": [
+                ".forward() 메서드는 다음 방문한 페이지로 이동합니다."
+            ],
+            "link" : "https://developer.mozilla.org/en-US/docs/Web/API/History/forward"
+        },
+        {
+            "id": 17,
+            "title": ".fill()",
+            "desc2": ".fill() 메서드는 배열의 시작 인덱스부터 끝 인덱스까지 하나의 값으로 채웁니다.",
+            "returns" : "새로운 배열 객체",
+            "syntax": "Array.fill(속성[, 시작값[, 끝값]])",
+            "definition": [
+                ".fill() 메서드는 배열의 시작 인덱스부터 끝 인덱스까지 하나의 값으로 채웁니다."
+            ],
+            "link" : "https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/fill"
+        },
+        {
+            "id": 18,
+            "title": ".filter()",
+            "desc2": ".filter() 메서드는 조건에 맞는 요소를 새로운 배열로 반환합니다.",
+            "returns" : "새로운 배열",
+            "syntax": "Array.filter(콜백함수)",
+            "definition": [
+                ".filter() 메서드는 조건에 맞는 요소를 새로운 배열로 반환합니다."
+            ],
+            "link" : "https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/filter"
+        },
+        {
+            "id": 19,
+            "title": ".find()",
+            "desc2": ".find() 메서드는 주어진 조건에 만족하는 첫 번째 요소의 값을 반환합니다.",
+            "returns" : "조건에 맞는 값 또는 값이 없으면 undefined",
+            "syntax": "Array.find(콜백함수)",
+            "definition": [
+                ".find() 메서드는 주어진 조건에 만족하는 첫 번째 요소의 값을 반환합니다."
+            ],
+            "link" : "https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/find"
+        },
+        {
+            "id": 20,
+            "title": ".findIndex()",
+            "desc2": ".findIndex() 메서드는 주어진 조건에 만족하는 첫 번째 요소 인덱스 값을 반환합니다.",
+            "returns" : "배열의 인덱스 또는 값이 없으면 -1",
+            "syntax": "Array.findIndex(콜백함수)",
+            "definition": [
+                ".findIndex() 메서드는 주어진 조건에 만족하는 첫 번째 요소 인덱스 값을 반환합니다."
+            ],
+            "link" : "https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex"
+        },
+        {
+            "id": 21,
+            "title": ".flat()",
+            "desc2": ".flat() 메서드는 모든 하위 배열까지 하나의 배열로 반환합니다.",
+            "returns" : "새로운 배열",
+            "syntax": "Array.flat(깊이)",
+            "definition": [
+                ".flat() 모든 하위 배열까지 하나의 배열로 반환합니다."
+            ],
+            "link" : "https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/flat"
+        },
+        {
+            "id": 22,
+            "title": ".forEach()",
+            "desc2": ".forEach() 메서드는 배열 요소 각각에 대해 실행합니다.",
+            "returns" : "undefined",
+            "syntax": "AArray.forEach(콜백함수(현재값, 인덱스, 배열))",
+            "definition": [
+                ".forEach() 메서드는 배열 요소 각각에 대해 실행합니다."
+            ],
+            "link" : "https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach"
+        },
+        {
+            "id": 23,
+            "title": ".focus()",
+            "desc2": ".focus() 현재 윈도우로 포커스를 설정합니다.",
+            "returns" : "-",
+            "syntax": "window.focus()",
+            "definition": [
+                ".focus() 현재 윈도우로 포커스를 설정합니다."
+            ],
+            "link" : "https://developer.mozilla.org/en-US/docs/Web/API/Window/focus"
+        }
+    ]
+  }
 }
